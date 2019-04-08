@@ -57,4 +57,8 @@ If the values match, it will return success.
   * If the target value is higher than the value of the probe element, it will take the upper half of the data set and perform the same operation against it.
   * If the target value is lower than the value of the probe element, it will perform the operation against the lower half.  It will continue to halve the dataset with each iteration until the value has been found or until it can no longer split the data set.
   
-* **
+* **Iterative halving** of data sets described in the binary search example produces a growth curve that peaks at the beginning and slowly flattens out as the size of the data sets increase e.g. an input data set containing 10 items takes one second to complete, a data set containing 100 items takes two seconds, and a data set containing 1000 items will take three seconds.
+
+* **Doubling the size** of input data set has little effect on its growth as after a single iteration of the algorithms the data set will be halved and therefore on a par with an input data set half the size.  This makes algorithms like binary search extremely efficient when dealing with large data sets.
+
+---
