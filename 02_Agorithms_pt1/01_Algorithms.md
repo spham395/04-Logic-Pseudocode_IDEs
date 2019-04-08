@@ -35,4 +35,12 @@ O(1) describes an algorithm that will always execute in the same time (or space)
 
 ## O(N)
 
-O(N) describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set.  The example below also demonstrates how Big O favours the workst-case performance scenarios; a matching string could be found during any iteration of the 
+O(N) describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set.  The example below also demonstrates how Big O favours the workst-case performance scenarios; a matching string could be found during any iteration of the ***for loop*** and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.
+
+![](/assets/big_O_02.png)
+
+---
+
+## O(N2)
+
+O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set.  
