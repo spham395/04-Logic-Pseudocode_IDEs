@@ -49,6 +49,14 @@ O(N2) represents an algorithm whose performance is directly proportional to the 
 
 ---
 
+## O(2N)
+
+O(2N) denotes an algorithm whose growth doubles with each additon to the input data set. The growth curve of an O(2N) function is exponential - starting off very shallow, then rising meteorically. An example of an O(2N) function is the recursive calculation of Fibonacci numbers:
+
+![](/assets/big_O_04.png)
+
+---
+
 ## Logarithms
 
 Logarithms are slighlty trickier to explain, so we will use a common example:
