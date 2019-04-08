@@ -5,7 +5,7 @@
 
 ## Objectives
 
-During this topic the student will have a fundemental understanding on IDE setup and use to include the following.
+**During this topic the student will have a fundemental understanding on IDE setup and use to include the following.**
 * **Big O Notation concepts**
 * **Logarithms**
 * **O(Log N)**
@@ -29,7 +29,7 @@ One of the best methods for understanding Big O thoroughly is through code examp
 
 O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
 
-![](/assets/Big_O_01.png)
+![](//assets/Big_O_01.png)
 
 ---
 
