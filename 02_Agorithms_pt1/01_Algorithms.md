@@ -43,4 +43,18 @@ O(N) describes an algorithm whose performance will grow linearly and in direct p
 
 ## O(N2)
 
-O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set.  
+O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. The growth curve of an O(2N) function is exponential - starting off very shallow, then rising meteorically.  An example of an O(2N) function is the recursive calcualtion of Fibinacci numbers:
+
+![](/assets/big_O_03.png)
+
+---
+
+## Logarithms
+
+Logarithms are slighlty trickier to explain, so we will use a common example:
+* **Binary Search** is a technique used to search sorted data sets. essentially the median, and compares it against a target value.
+If the values match, it will return success.  
+  * If the target value is higher than the value of the probe element, it will take the upper half of the data set and perform the same operation against it.
+  * If the target value is lower than the value of the probe element, it will perform the operation against the lower half.  It will continue to halve the dataset with each iteration until the value has been found or until it can no longer split the data set.
+  
+* **
