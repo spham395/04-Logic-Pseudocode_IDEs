@@ -35,3 +35,4 @@ Review the following examples:
 
 3.
 ![](/assets/2big_O_06.png)
+
