@@ -14,14 +14,24 @@ Determine the Big-O-running time for the following code fragments.
 
 ---
 2. 
-![](/assets/2Big_O_02a.png)
+![](/assets/2big_O_02.png)
 
 ---
 3.
-![](/assets/2big_O_02.png)
+![](/assets/2big_O_03.png)
+
 ---
 ### Time Complexity: O(log/n): Logarthmic
 Example operation: Finding an element in a sorted array.
+Review the following examples:
 
-![](/assets/2big_O_03.png)
+1.
+![](/assets/2big_O_04.png)
 
+---
+
+2.
+![](/assets/2big_O_05.png)
+
+3.
+![](/assets/2big_O_06.png)
