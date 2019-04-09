@@ -19,10 +19,9 @@ Determine the Big-O-running time for the following code fragments.
 ---
 3.
 ![](/assets/2Big_O_02.png)
-
 ---
 ### Time Complexity: O(log/n): Logarthmic
 Example operation: Finding an element in a sorted array.
 
-![](assets/2Big_O_03.png)
+![](/assets/2Big_O_03.png)
 
