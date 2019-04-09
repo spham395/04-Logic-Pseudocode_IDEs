@@ -1,4 +1,4 @@
-# Using an IDE
+# Algorithms Big O Notation
 
 ### For this lesson, we are going to discuss the Big O notation. Additionally, we will be going over pseudo-code and techniques used to help learn how to logically write code.
 
