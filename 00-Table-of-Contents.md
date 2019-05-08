@@ -4,6 +4,6 @@
 
 * [IDE's](01_IDEs/01_IDEs.md)
 * [Algorithms Pt1](02_Agorithms_pt1/01_Algorithms.md)
-* [Algorithms Practice](02_agorithms/02_Algorithms_Practice.md)
+* [Algorithms Practice](02_agorithms_pt1/02_Algorithms_Practice.md)
 
   
