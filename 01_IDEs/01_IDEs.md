@@ -1,5 +1,7 @@
 # Using an IDE
 
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Introduction to Git"> Introduction to Git </a>
+
 For this lesson, we are going to dive into using IDEs to debug. The IDEs we will be using are **CLion** and **Visual Studio**. Both are outstanding and powerful debuggers. 
 
 ![](/assets/clion.png)
