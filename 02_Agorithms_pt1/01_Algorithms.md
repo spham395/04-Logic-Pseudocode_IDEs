@@ -73,3 +73,6 @@ If the values match, it will return success.
 * **Doubling the size** of input data set has little effect on its growth as after a single iteration of the algorithms the data set will be halved and therefore on a par with an input data set half the size.  This makes algorithms like binary search extremely efficient when dealing with large data sets.
 
 ---
+
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/02_Agorithms_pt1/02_Algorithms_Practice.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+
