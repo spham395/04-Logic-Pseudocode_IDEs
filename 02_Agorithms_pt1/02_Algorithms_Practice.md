@@ -39,4 +39,4 @@ Review the following examples:
 ![](/assets/2big_O_06.png)
 
 
-<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/README.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/README.md" rel="Go to C Programming"> Go to C Programming subject </a>
