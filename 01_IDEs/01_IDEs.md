@@ -230,10 +230,10 @@ During this topic, we discussed
 * Clion tool description
 * VStudios tool description
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/02_Agorithms_pt1/01_Algorithms.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
-
 ### More Info on Getting Started with Visual Studio
 
 * [Visual Studio - Getting Started](https://www.cs.auckland.ac.nz/~paul/C/Windows/index.php)
 
+---
 
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/02_Agorithms_pt1/01_Algorithms.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
