@@ -38,5 +38,9 @@ Review the following examples:
 3.
 ![](/assets/2big_O_06.png)
 
+---
+**End of IDE's & Algorithms part 1
 
 <a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/README.md" rel="Go to C Programming"> Go to C Programming subject </a>
+
+<a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" rel="Return to Course Introduction"> Return to Course introduction </a>
