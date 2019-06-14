@@ -1,6 +1,6 @@
 # Practice Exercises Big O Notation
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md"> Return to TOC </a>
 
 ## Objectives
 ### This contains exercises to practice the previously discussed Big O Notation concepts.
@@ -41,4 +41,4 @@ Review the following examples:
 ---
 **End of IDE's & Algorithms part 1**
 
-<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/01_Intro_to_Debugging.md" > Continue to Next Topic </a>
