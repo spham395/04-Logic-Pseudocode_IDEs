@@ -5,7 +5,7 @@
 * [IDE's](01_IDEs/01_IDEs.md)
 * [Algorithms Pt1](02_Agorithms_pt1/01_Algorithms.md)
 * [Algorithms Practice](02_Agorithms_pt1/02_Algorithms_Practice.md)
-* [Introduction](README.md)
+* [Debugging](README.md)
   * [Intro to Debugging](01_Debugging/01_Intro_to_Debugging.md)
   * [IO Debugging](01_Debugging/02_IO_Debugging.md)
   * [Understanding Errors](01_Debugging/03_Understanding_Errors.md)
