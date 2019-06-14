@@ -1,4 +1,5 @@
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1
+/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
 # Objectives
 
@@ -102,4 +103,5 @@ Once the bug has been identified, it is time to fix it.
 * Now that the bug is identified, fix it, and recheck.
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/06-Debugging-Assembly/blob/master/01_Debugging/03_Understanding_Errors.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1
+/blob/master/01_Debugging/03_Understanding_Errors.md" rel="Continue to Next Topic"> Continue to Next Topic </a>
