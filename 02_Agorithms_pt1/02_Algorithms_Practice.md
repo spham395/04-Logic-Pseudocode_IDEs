@@ -41,4 +41,4 @@ Review the following examples:
 ---
 **End of IDE's & Algorithms part 1**
 
-<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md" > Go to C Programming subject </a>
+<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
