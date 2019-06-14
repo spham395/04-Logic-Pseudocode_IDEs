@@ -102,4 +102,4 @@ Once the bug has been identified, it is time to fix it.
 * Now that the bug is identified, fix it, and recheck.
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_Debugging/04.0_IDEs.md"> Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/04.0_IDEs.md"> Continue to Next Topic </a>
