@@ -39,6 +39,5 @@ Review the following examples:
 ![](/assets/2big_O_06.png)
 
 ---
-**End of IDE's & Algorithms part 1**
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/01_Intro_to_Debugging.md" > Continue to Next Topic </a>
