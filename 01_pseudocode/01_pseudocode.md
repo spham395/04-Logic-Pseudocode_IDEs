@@ -22,21 +22,22 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ---
 
-## Understanding Computer Systems
+### Understanding Computer Systems
 
 **Computer system**
-Combination of all the components required to process and store data using a computer
+* Combination of all the components required to process and store data using a computer
 
-* Hardware 
-  * Equipment associated with a computer
-* Software 
-  * Computer instructions that tells the hardware what to do
-  * Programs
-    * Instructions written by programmers
-  * Programming
-    * Writing software instructions
-  * Application software such as word processing, spreadsheets, payroll and inventory, even games, app
-  * System software such as operating systems like Windows, Linux, or UNIX, Google Android and Apple IOS
+**Hardware**
+* Equipment associated with a computer
+  
+**Software**
+* Computer instructions that tells the hardware what to do
+* Programs
+  * Instructions written by programmers
+* Programming
+  * Writing software instructions
+* Application software such as word processing, spreadsheets, payroll and inventory, even games, app
+* System software such as operating systems like Windows, Linux, or UNIX, Google Android and Apple IOS
 
 **Computer hardware and software accomplish three major operations**
 * Input
@@ -44,18 +45,18 @@ Combination of all the components required to process and store data using a com
 * Processing
   * Calculations and comparisons performed by the central processing unit (CPU)
 * Output 
-  * Resulting information that is sent to a printer, a monitor, or storage devices after processing
-
-**A cloud based device is accessed through the Internet**
+  * Resulting information that is sent to a printer, a monitor, or storage devices after processing
+  * A cloud based device is accessed through the Internet
 
 **Programming language**
 * Used to write computer instructions called program code
 * Writing instructions is called coding the program
 * Examples
   * Visual Basic, C#, C++, or Java
+  
 **Syntax**
-  * Rules governing word usage and punctuation
-  * Mistakes in a language’s usage are syntax errors
+* Rules governing word usage and punctuation
+* Mistakes in a language’s usage are syntax errors
 
 **Computer memory**
 * Computer’s temporary, internal storage – random access memory (RAM)
@@ -81,6 +82,9 @@ Combination of all the components required to process and store data using a com
 
 **Variable** 
 * Named memory location whose value can vary
+
+---
+### Understanding the Program Development Cycle
 
 **Program development cycle**
 * Understand the problem
