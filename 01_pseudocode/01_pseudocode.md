@@ -1,9 +1,8 @@
-# Pseudocode, Logic, and Design
-
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
+## Pseudocode, Logic, and Design
 
-## For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition. By Joyce Farrell ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
+### For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition. By Joyce Farrell ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 
 ## Objectives
