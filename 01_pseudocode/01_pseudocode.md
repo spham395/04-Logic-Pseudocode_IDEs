@@ -2,15 +2,14 @@
 
 # Pseudocode, Logic, and Design
 
-### For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition.
+**For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition.**
 **By Joyce Farrell** 
 
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
-## Objectives
+**Objectives**
 
 **In this chapter, you will learn about:**
-
 * Computer systems
 * Simple program logic
 * The steps involved in the program development cycle
@@ -21,7 +20,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ---
 
-## Understanding Computer Systems
+### Understanding Computer Systems
 
 **Computer system**
 * Combination of all the components required to process and store data using a computer
@@ -89,7 +88,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ---
 
-## Understanding the Program Development Cycle
+### Understanding the Program Development Cycle
 
 **Program development cycle**
 * Understand the problem
