@@ -1,12 +1,11 @@
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-## Pseudocode, Logic, and Design
+# Pseudocode, Logic, and Design
 
 ### For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition.
 **By Joyce Farrell** 
 
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
-
 
 ## Objectives
 
@@ -22,7 +21,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ---
 
-### Understanding Computer Systems
+## Understanding Computer Systems
 
 **Computer system**
 * Combination of all the components required to process and store data using a computer
@@ -64,6 +63,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Volatile memory – lost when the power is off
 
 ---
+
 **Permanent storage devices**
 * Nonvolatile memory
 
@@ -77,6 +77,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 **Programs with syntax errors cannot execute**
 
 ---
+
 **Logical errors**
 * Errors in program logic produce incorrect output
 
@@ -87,7 +88,8 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Named memory location whose value can vary
 
 ---
-### Understanding the Program Development Cycle
+
+## Understanding the Program Development Cycle
 
 **Program development cycle**
 * Understand the problem
