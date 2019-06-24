@@ -60,20 +60,28 @@ Combination of all the components required to process and store data using a com
 **Computer memory**
 * Computer’s temporary, internal storage – random access memory (RAM)
 * Volatile memory – lost when the power is off
+
 **Permanent storage devices**
 * Nonvolatile memory
+
 **Compiler or interpreter**
 * Translates source code into machine language (binary language) statements called object code
 * Checks for syntax errors
+
 **Program executes or runs**
 * Input will be accepted, some processing will occur, and results will be output
+
 **Programs with syntax errors cannot execute**
+
 **Logical errors**
 * Errors in program logic produce incorrect output
+
 **Logic of the computer program**
 * Sequence of specific instructions in specific order
+
 **Variable** 
 * Named memory location whose value can vary
+
 **Program development cycle**
 * Understand the problem
 * Plan the logic
