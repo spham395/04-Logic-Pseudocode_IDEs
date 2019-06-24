@@ -39,6 +39,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Application software such as word processing, spreadsheets, payroll and inventory, even games, app
 * System software such as operating systems like Windows, Linux, or UNIX, Google Android and Apple IOS
 
+---
 **Computer hardware and software accomplish three major operations**
 * Input
   * Data items such as text, numbers, images, and sound
@@ -62,6 +63,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Computer’s temporary, internal storage – random access memory (RAM)
 * Volatile memory – lost when the power is off
 
+---
 **Permanent storage devices**
 * Nonvolatile memory
 
@@ -74,6 +76,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 **Programs with syntax errors cannot execute**
 
+---
 **Logical errors**
 * Errors in program logic produce incorrect output
 
