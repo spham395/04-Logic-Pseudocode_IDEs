@@ -101,5 +101,5 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ---
 
-![](/assets/Dev_Cycle.jpg)
+![](/01_pseudocode/assets/Dev_Cycle.jpg)
 
