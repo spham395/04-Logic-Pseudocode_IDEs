@@ -120,7 +120,10 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 **Flowchart**
 * Pictorial representation of the logical steps it takes to solve a problem
 
+## Writing Pseudocode
+
 **Pseudocode representation of a number-doubling problem**
+
 ```
 start
    input myNumber
@@ -131,7 +134,6 @@ stop
 ```
 
 ## Pseudocode Standards
-
 * Programs begin with the word start and end with the word stop; these two words are always aligned
 
 * Whenever a module name is used, it is followed by a set of parentheses
@@ -141,4 +143,30 @@ stop
 * Each program statement performs one action
 
 **Example** input, processing, or output
+* Program statements are indented a few spaces more than the word start or the module name
+
+* Each program statement appears on a single line if possible. When this is not possible, continuation lines are indented
+
+* Program statements begin with lowercase letters
+
+* No punctuation is used to end statements
+---
+
+## Drawing Flowcharts
+
+**Create a Flowchart**
+
+* Draw geometric shapes that contain the individual statements
+
+* Connect shapes with arrows
+
+**Input Symbol**
+* Indicates input operation
+* Parallelogram
+
+**Processing symbol**
+* Contains processing statements such as arithmetic
+* Rectangle
+
+
 
