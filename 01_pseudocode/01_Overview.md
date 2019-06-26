@@ -219,4 +219,4 @@ stop
 * Use a text editor or an IDE to enter your program statements
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/02_pseudocode.md" > Continue to Next Topic </a>
