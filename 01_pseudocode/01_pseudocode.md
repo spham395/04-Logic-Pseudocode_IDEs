@@ -108,7 +108,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 ---
 ## Using Software to Translate the Prgram into Machine Language
 
-![](/01_pseudocode/assets/Machine_lang1.jpg)
+![](/01_pseudocode/assets/Machine_lang2.jpg)
 
 ---
 
@@ -179,7 +179,7 @@ stop
 * Shaped like a racetrack
 * Called lozenges
 
-![](/01_pseudocode/assets/StartStop4.png)
+![](/01_pseudocode/assets/StartStop4a.png)
 
 ![](/01_pseudocode/assets/Flowchart5.jpg)
 
