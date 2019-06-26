@@ -5,12 +5,15 @@
 The Pseudocode/Logic portion of training consists of six (6) lesson topics.  These topics are designed to help the student gain an understanding on how to think in a way that will assist them when learning programming languages.
 
 **Source**
-A portion of the information presented was dirived from the following reference.  
+A portion of the information presented was dirived from the following reference:
+| ![](/01_pseudocode/assets/source.png)|
+|--------------------------------------|
 
-![](/01_pseudocode/assets/source.png)
+**Programming Logic & Design**, 
 
-Programming Logic & Design, Comprehensive , 9th Edition
-Joyce FarrellISBN-10: 1-337-10207-5ISBN-13: 978-1-337-10207-0
+Comprehensive , 9th Edition
+Joyce Farrell, 
+ISBN-10: 1-337-10207-5,  ISBN-13: 978-1-337-10207-0
 
 ---
 
