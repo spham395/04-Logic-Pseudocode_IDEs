@@ -134,30 +134,23 @@ stop
 ```
 
 ## Pseudocode Standards
+
 * Programs begin with the word start and end with the word stop; these two words are always aligned
-
 * Whenever a module name is used, it is followed by a set of parentheses
-
 * Modules begin with the module name and end with return.  The module name and return are always aligned
-
 * Each program statement performs one action
 
 **Example** input, processing, or output
 * Program statements are indented a few spaces more than the word start or the module name
-
 * Each program statement appears on a single line if possible. When this is not possible, continuation lines are indented
-
 * Program statements begin with lowercase letters
-
 * No punctuation is used to end statements
 ---
 
 ## Drawing Flowcharts
 
 **Create a Flowchart**
-
 * Draw geometric shapes that contain the individual statements
-
 * Connect shapes with arrows
 
 **Input Symbol**
