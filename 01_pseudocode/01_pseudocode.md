@@ -157,9 +157,28 @@ stop
 * Indicates input operation
 * Parallelogram
 
+|input myNumber|
+|--------------|
+
 **Processing symbol**
 * Contains processing statements such as arithmetic
 * Rectangle
 
+|myAnswer = myNumber * 2|
+|-----------------------|
+
+**Output symbol**
+* Represents output statements
+* Parallogram
+
+|output myAnswer|
+|---------------|
+
+**Flowlines**
+* Arrows that connect steps
+
+**Terminal symbols**
+* Start/stop symbols
+* Shaped like a re
 
 
