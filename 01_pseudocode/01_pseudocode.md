@@ -157,28 +157,66 @@ stop
 * Indicates input operation
 * Parallelogram
 
-|input myNumber|
-|--------------|
+![](/01_pseudocode/assets/input1.jpg)
 
 **Processing symbol**
 * Contains processing statements such as arithmetic
 * Rectangle
 
-|myAnswer = myNumber * 2|
-|-----------------------|
+![](/01_pseudocode/assets/mynumb2.jpg)
 
 **Output symbol**
 * Represents output statements
 * Parallogram
 
-|output myAnswer|
-|---------------|
+![](/01_pseudocode/assets/MyAnsw3.jpg)
 
 **Flowlines**
 * Arrows that connect steps
 
 **Terminal symbols**
 * Start/stop symbols
-* Shaped like a re
+* Shaped like a racetrack
+* Called lozenges
+
+![](/01_pseudocode/assets/StartStop4.png)
+
+![](/01_pseudocode/assets/Flowchart5.jpg)
 
 
+---
+
+## End a Program
+
+**Making a Decision**
+* Testing a value
+* Decision symbol
+  * Diamond shape
+  
+**Dummy value**
+* Data-entry value that the user will never need
+* Sentinel value
+
+**End of File (eof)**
+* Marker at the end of a file that automatically acts as a sentinel
+
+![](/01_pseudocode/assets/EndProg6.png)
+
+---
+
+## Summary
+
+* Hardware and software accomplish input, processing, and output
+
+* Logic must be developed correctly
+
+* Logical errors are much more difficult to locate than syntax errors
+
+* Use flowcharts and pseudocode to plan the logic
+
+* Avoid infinite loops by testing for a sentinel value
+
+* Use a text editor or an IDE to enter your program statements
+---
+
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
