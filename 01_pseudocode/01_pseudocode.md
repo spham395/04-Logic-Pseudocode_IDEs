@@ -111,3 +111,34 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 ![](/01_pseudocode/assets/Machine_lang1.jpg)
 
 ---
+
+### Statements and Flowchart Symbols
+
+**Pseudocode**
+* English-like representation of the logical steps it takes to solve a problem
+
+**Flowchart**
+* Pictorial representation of the logical steps it takes to solve a problem
+
+**Pseudocode representation of a number-doubling problem**
+```
+start
+   input myNumber
+   set myAnswer = myNumber * 2
+   output myAnswer
+stop
+
+```
+
+## Pseudocode Standards
+
+* Programs begin with the word start and end with the word stop; these two words are always aligned
+
+* Whenever a module name is used, it is followed by a set of parentheses
+
+* Modules begin with the module name and end with return.  The module name and return are always aligned
+
+* Each program statement performs one action
+
+**Example** input, processing, or output
+
