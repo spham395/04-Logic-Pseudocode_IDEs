@@ -51,7 +51,7 @@
 * Optionally, an initial value
 
 ### Flowchart and pseudocode of number-doubling program with variable declarations
-![](/01_pseudocode/assets/Flowchart1.jpg)
+![](/01_pseudocode/assets/flowchart1.jpg)
 
 ---
 
@@ -139,7 +139,7 @@ Standard arithmetic operators:
 |**Precedence & Associativity of Five Common Operators**|
 |-------------------------------------------------------|
 
-![](/01_pseudocode/assets/Precedence3.jpg)
+![](/01_pseudocode/assets/precedence3.jpg)
 
 ---
 
@@ -156,11 +156,11 @@ Standard arithmetic operators:
 **Documentation tool**
 
 ### Hierachy chart of payroll report program
-![](/01_pseudocode/assets/Higharchy4.jpg)
+![](/01_pseudocode/assets/higharchy4.jpg)
 
 ---
 ### Billing program hiearchy chart
-![](/01_pseudocode/assets/Higharchy5.jpg)
+![](/01_pseudocode/assets/higharchy5.jpg)
 
 ---
 ## Features of Good Program Design
