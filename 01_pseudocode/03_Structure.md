@@ -29,7 +29,8 @@
 ---
 ## Unstructured Spaghetti Code
 
-# IMAGE 1
+### Spaghetti code logic for washing a dog
+![](/01_pseudocode/assets/spaghetti1.jpg)
 
 ---
 ## Understanding the Three Basic Structures
