@@ -6,7 +6,9 @@ The Pseudocode/Logic portion of training consists of six (6) lesson topics.  The
 
 **Source**
 
-* This lesson topic was dirived from the following source. For a more complete content you may refer to the source:
+* This lesson topic was dirived in part from the following source (**Programming Logic & Design). 
+
+* For more complete topic content you may refer to the original content via the source below:
 
 ![](/01_pseudocode/assets/source.png)
 
