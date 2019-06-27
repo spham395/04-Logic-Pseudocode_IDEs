@@ -29,13 +29,13 @@
 * Provides an action for each of two possible outcomes
 
 ### The Dual-alternative Selection Structure
-**Insert IMAGE 1**
+![](/01_pseudocode/assets/dualAlt1.jpg)
 
 **Single-alternative (or unary) selection structure**
   * Action is provided for only one outcome
   
 ### The Single-alternative Selection Structure
-**Insert IMAGE 2**
+![](/01_pseudocode/assets/singleAlt2.jpg)
 
 **if-then-else decision**
 * if-then clause
