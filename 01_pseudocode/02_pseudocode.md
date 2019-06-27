@@ -50,17 +50,13 @@
 * Identifier (variable’s name)
 * Optionally, an initial value
 
+### Flowchart and pseudocode of number-doubling program with variable declarations
 ![](/01_pseudocode/assets/Flowchart1.jpg)
 
 ---
 
-## Understanding a Declaration's Identifier
-
-![](/01_pseudocode/assets/Flowchart2.jpg)
-
----
-
 ## Variable Naming Conventions
+
 **Camel casing**
 * Variable names have a “hump” in the middle such as hourlyWage
 
@@ -140,8 +136,8 @@ Standard arithmetic operators:
 * Addition and subtraction are evaluated next
   * From left to right
 
-|Precedence & Associativity of Five Common Operators|
-|---------------------------------------------------|
+|**Precedence & Associativity of Five Common Operators**|
+|-------------------------------------------------------|
 
 ![](/01_pseudocode/assets/Precedence3.jpg)
 
@@ -159,10 +155,11 @@ Standard arithmetic operators:
 
 **Documentation tool**
 
+### Hierachy chart of payroll report program
 ![](/01_pseudocode/assets/Higharchy4.jpg)
 
 ---
-
+### Billing program hiearchy chart
 ![](/01_pseudocode/assets/Higharchy5.jpg)
 
 ---
