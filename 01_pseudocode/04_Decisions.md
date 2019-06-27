@@ -113,8 +113,8 @@
 **OR decision**
 * Take action when one or the other of two conditions is true
 
-* **Example**
-  * “Are you free for dinner Friday or Saturday?”
+**Example**
+* “Are you free for dinner Friday or Saturday?”
 
 ---
 ## Writing OR Selections for Efficiency
@@ -148,8 +148,8 @@
 **Request for A and B in English logically means a request for A or B**
 
 **Examples**
-“Add $20 to the bill of anyone who makes more than 100 calls and to anyone who has used more than 500 minutes”
-“Add $20 to the bill of anyone who has made more than 100 calls or has used more than 500 minutes”
+* “Add $20 to the bill of anyone who makes more than 100 calls and to anyone who has used more than 500 minutes”
+* “Add $20 to the bill of anyone who has made more than 100 calls or has used more than 500 minutes”
 
 **Make sure Boolean expression are complete**
 
