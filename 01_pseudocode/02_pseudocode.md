@@ -50,11 +50,15 @@
 * Identifier (variable’s name)
 * Optionally, an initial value
 
-**IMAGE 1 GOES HERE**
+![](/01_pseudocode/assets/Flowchart1.jpg)
+
+---
 
 ## Understanding a Declaration's Identifier
 
-**IMAGE 2 GOES HERE**
+![](/01_pseudocode/assets/Flowchart2.jpg)
+
+---
 
 ## Variable Naming Conventions
 **Camel casing**
@@ -139,8 +143,9 @@ Standard arithmetic operators:
 |Precedence & Associativity of Five Common Operators|
 |---------------------------------------------------|
 
-**IMAGE 3 GOES HERE**
+![](/01_pseudocode/assets/Precedence3.jpg)
 
+---
 
 ## Creating Hierarchy Charts
 
@@ -154,9 +159,11 @@ Standard arithmetic operators:
 
 **Documentation tool**
 
-**IMAGE 4 GOES HERE**
+![](/01_pseudocode/assets/Higharchy4.jpg)
 
-**IMAGE 5 GOES HERE**
+---
+
+![](/01_pseudocode/assets/Higharchy5.jpg)
 
 ---
 ## Features of Good Program Design
