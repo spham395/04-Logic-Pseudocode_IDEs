@@ -136,9 +136,7 @@ Standard arithmetic operators:
 * Addition and subtraction are evaluated next
   * From left to right
 
-|**Precedence & Associativity of Five Common Operators**|
-|-------------------------------------------------------|
-
+### Precedence & Associativity of Five Common Operators
 ![](/01_pseudocode/assets/precedence3.jpg)
 
 ---
