@@ -4,38 +4,38 @@
 
 # Pseudocode, Logic, and Design
 
-**For this lesson, we are going to cover several concepts derived from: "Programming Logic & Design, comprehensive", 9th edition.**
-**By Joyce Farrell** 
+**Sources for this lesson include:**: Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
 
+**All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 **Objectives**
 
 **In this chapter, you will learn about:**
 * Computer systems
-* Simple program logic
-* The steps involved in the program development cycle
+* Program logic
+* Program development cycle process
 * Pseudocode statements and flowchart symbols
-* Using a sentinel value to end a program
+* Sentinel value to end programs
 * Programming and user environments
-* The evolution of programming models
+* Programming models
 
 ---
 
 ### Understanding Computer Systems
 
 **Computer system**
-* Combination of all the components required to process and store data using a computer
+* Combination of hardware and software components, that communicate with each other and externally,  required to process and store data using a computer
 
 **Hardware**
-* Equipment associated with a computer
+* Physical ,tangibles parts or components (equipment) used to  with a computer
   
 **Software**
-* Computer instructions that tells the hardware what to do
+* A set of data or computer instructions that tells the computer how to work
 * Programs
-  * Instructions written by programmers
+  *A collection of Instructions written by programmers that performs a specific task when executed by a computer
 * Programming
-  * Writing software instructions
+  * The process of taking an algorithm or a programming languages code and using it to write software instructions
 * Application software such as word processing, spreadsheets, payroll and inventory, even games, app
 * System software such as operating systems like Windows, Linux, or UNIX, Google Android and Apple IOS
 
@@ -106,11 +106,13 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
    ## Program Development Cycle
 
 ![](/01_pseudocode/assets/Dev_Cycle.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 ## Using Software to Translate the Prgram into Machine Language
 
 ![](/01_pseudocode/assets/Machine_lang2.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 
@@ -160,18 +162,21 @@ stop
 * Parallelogram
 
 ![](/01_pseudocode/assets/input1.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Processing symbol**
 * Contains processing statements such as arithmetic
 * Rectangle
 
 ![](/01_pseudocode/assets/mynumb2.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Output symbol**
 * Represents output statements
 * Parallogram
 
 ![](/01_pseudocode/assets/MyAnsw3.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Flowlines**
 * Arrows that connect steps
@@ -182,9 +187,10 @@ stop
 * Called lozenges
 
 ![](/01_pseudocode/assets/StartStop4a.png)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/Flowchart5.jpg)
-
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 
@@ -203,6 +209,7 @@ stop
 * Marker at the end of a file that automatically acts as a sentinel
 
 ![](/01_pseudocode/assets/EndProg6.png)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 
