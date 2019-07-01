@@ -56,7 +56,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
   * Visual Basic, C#, C++, or Java
   
 **Syntax**
-* Rules governing word usage and punctuation
+* a set of rules specific to a language, governing programming language usage, arithmatic, and punctuation
 * Mistakes in a language’s usage are syntax errors
 
 **Computer memory**
