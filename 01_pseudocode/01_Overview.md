@@ -107,12 +107,14 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
    ## Program Development Cycle
 
 ![](/01_pseudocode/assets/Dev_Cycle.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 ## Using Software to Translate the Prgram into Machine Language
 
 ![](/01_pseudocode/assets/Machine_lang2.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
@@ -163,6 +165,7 @@ stop
 * Parallelogram
 
 ![](/01_pseudocode/assets/input1.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Processing symbol**
@@ -177,6 +180,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 * Parallogram
 
 ![](/01_pseudocode/assets/MyAnsw3.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Flowlines**
@@ -188,9 +192,11 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 * Called lozenges
 
 ![](/01_pseudocode/assets/StartStop4a.png)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/Flowchart5.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
@@ -210,6 +216,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 * Marker at the end of a file that automatically acts as a sentinel
 
 ![](/01_pseudocode/assets/EndProg6.png)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
