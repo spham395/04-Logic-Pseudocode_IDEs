@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 ## Arrays
 
 **Sources for this lesson include:**: Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
