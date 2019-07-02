@@ -28,8 +28,10 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Often a complicated mess
 * Programs often work but are difficult to read and maintain
 * Confusing and prone to error
+
 **Unstructured programs**
 * Do not follow the rules of structured logic
+
 **Structured programs** 
 * Follow the rules of structured logic
 
@@ -177,6 +179,5 @@ endwhile
 **Logical steps can be rewritten to conform to the three structures: sequence, selection, and loop**
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/04_Decisions.md" > Continue to Next Topic </a>
-
 
 --->
