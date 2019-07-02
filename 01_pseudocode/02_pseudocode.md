@@ -56,6 +56,7 @@
 ### Flowchart and pseudocode of number-doubling program with variable declarations
 
 ![](/01_pseudocode/assets/flowchart1.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
@@ -64,25 +65,16 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 The most commonly used format of naming variables is Camel casing.  We will use that format throughout our course of instruction.
 
-**Camel casing**
-* Variable names should start with a lowercase character.  If a second part is added to the name it should start with an Uppercase character.  Example: **h**ourly**W**age
+**Casing conventions**
 
-**Additional forms of formatting variables include:**
+* Variable names that start with a lowercase character.  If a second part is added to the name it should start with an Uppercase character.  Example: **h**ourly**W**age. Commonly referred to as (Camel case)
+* Variable names where the first letter in each word in uppercase such as **H**ourly**W**age (Pascal casing)
+* A form of camel casing in which the data type is part of the name such as **num**HourlyWage (Hungarian casing)
 
-**Pascal casing**
-* Variable names have the first letter in each word in uppercase such as HourlyWage
-
-**Hungarian notation**
-* A form of camel casing in which the data type is part of the name such as numHourlyWage 
-
-**Snake casing**
-* Parts of variable names are separated by underscores such as hourly_wage
-
-**Mixed case with underscores**
-* Similar to snake casing, but new words start with a uppercase letter such as Hourly_Wage
-
-**Kebob case**
-* Parts of variable names are separated by dashes such as hourly-wage 
+**Other examples of casing types**
+* Parts of variable names are separated by underscores such as hourly **_** wage (snake casing)
+* Similar to snake casing, but new words start with a uppercase letter such as **H**ourly_**W**age (mixed case)
+* Parts of variable names are separated by dashes such as hourly **-** wage (Kebob case)
 
 ## Assigning Values to Variables
 
@@ -137,8 +129,8 @@ Standard arithmetic operators:
 % (percent sign)-remainder
 
 **Rules of precedence**
-* Also called the order of operations
-* Dictate the order in which operations in the same statement are carried out
+* Expressed as Order of operations
+* States the order in which operations are carried out
 * Expressions within parentheses are evaluated first
 * All the arithmetic operators have left-to-right associativity
 * Multiplication and division are evaluated next
@@ -148,6 +140,7 @@ Standard arithmetic operators:
 
 ### Precedence & Associativity of Five Common Operators
 ![](/01_pseudocode/assets/precedence3.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
@@ -156,8 +149,8 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Hierarchy chart**
 * Shows the overall picture of how modules are related to one another
-* Tells you which modules exist within a program and which modules call others
-* Specific module may be called from several locations within a program
+* Defines which modules exist within a program and which modules call others
+* A Specific module may be called from locations within a program
 
 **Planning tool** 
 * Develop the overall relationship of program modules before you write them 
@@ -166,11 +159,13 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ### Hierachy chart of payroll report program
 ![](/01_pseudocode/assets/higharchy4.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 ### Billing program hiearchy chart
 ![](/01_pseudocode/assets/higharchy5.jpg)
+
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
@@ -189,11 +184,11 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 ## Maintaining Good Programming Habits
 
 **Every program you write will be better if you:** 
-* Plan before you start coding
-* Maintain the habit of first drawing flowcharts or writing pseudocode
-* Desk-check your program logic on paper
+* Plan prior to coding
+* Continue to draw flowcharts or write pseudocode
+* Draft your program logic on paper
 * Think carefully about the variable and module names you use
-* Design your program statements to be easy to read and use
+* Design your program statements for ease of reading and use
 
 ## Summary
 * Programs contain literals, variables, and named constants
