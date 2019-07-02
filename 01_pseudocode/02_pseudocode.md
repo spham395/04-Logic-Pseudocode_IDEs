@@ -57,6 +57,7 @@
 
 ### Flowchart and pseudocode of number-doubling program with variable declarations
 ![](/01_pseudocode/assets/flowchart1.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 
@@ -143,6 +144,7 @@ Standard arithmetic operators:
 
 ### Precedence & Associativity of Five Common Operators
 ![](/01_pseudocode/assets/precedence3.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 
@@ -160,10 +162,12 @@ Standard arithmetic operators:
 
 ### Hierachy chart of payroll report program
 ![](/01_pseudocode/assets/higharchy4.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 ### Billing program hiearchy chart
 ![](/01_pseudocode/assets/higharchy5.jpg)
+Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ---
 ## Features of Good Program Design
