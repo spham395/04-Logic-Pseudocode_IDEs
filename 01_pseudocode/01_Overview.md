@@ -114,7 +114,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 ---
 ## Using Software to Translate the Prgram into Machine Language
 
-![](/01_pseudocode/assets/Machine_lang2.jpg)
+![](/01_pseudocode/assets/machLang.png)
 
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
