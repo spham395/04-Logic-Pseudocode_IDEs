@@ -3,8 +3,12 @@
 
 ## Pseudocode
  
+![](/01_pseudocode/assets/bookCover.png)
+
 **Sources for this lesson include:** Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
 
+**All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
+ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 **All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0 
 
@@ -61,13 +65,9 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ![](/01_pseudocode/assets/flowchart1.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
-
-## Variable Naming Conventions
-
-The most commonly used format of naming variables is Camel casing.  We will use that format throughout our course of instruction.
 
 **Casing conventions**
 
@@ -145,7 +145,7 @@ Standard arithmetic operators:
 ### Precedence & Associativity of Five Common Operators
 ![](/01_pseudocode/assets/precedence3.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 
@@ -164,13 +164,13 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 ### Hierachy chart of payroll report program
 ![](/01_pseudocode/assets/higharchy4.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 ### Billing program hiearchy chart
 ![](/01_pseudocode/assets/higharchy5.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 ## Features of Good Program Design
