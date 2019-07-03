@@ -167,8 +167,6 @@ stop
 
 ![](/01_pseudocode/assets/input1.jpg)
 
-Programming Logic & Design (2017), 9th edition
-
 **Processing symbol**
 * Contains processing statements such as arithmetic
 * Rectangle
@@ -180,8 +178,6 @@ Programming Logic & Design (2017), 9th edition
 * Parallogram
 
 ![](/01_pseudocode/assets/MyAnsw3.jpg)
-
-Programming Logic & Design (2017), 9th edition
 
 **Flowlines**
 * Arrows that connect steps
