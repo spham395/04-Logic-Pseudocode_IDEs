@@ -189,7 +189,7 @@ stop
 
 ![](/01_pseudocode/assets/StartStop4a.png)
 
-![](/01_pseudocode/assets/Flowchart5.jpg)
+![](/01_pseudocode/assets/flowChartDoub.png)
 
 Programming Logic & Design (2017), 9th edition
 
@@ -209,7 +209,7 @@ Programming Logic & Design (2017), 9th edition
 **End of File (eof)**
 * Marker at the end of a file that automatically acts as a sentinel
 
-![](/01_pseudocode/assets/EndProg6.png)
+![](/01_pseudocode/assets/flowChartSent.png)
 
 Programming Logic & Design (2017), 9th edition
 
