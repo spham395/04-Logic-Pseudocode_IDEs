@@ -37,6 +37,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Provides an action for each of two possible outcomes
 
 ### The Dual-alternative Selection Structure
+
 ![](/01_pseudocode/assets/dualAlt1.jpg)
 
 Programming Logic & Design (2017), 9th edition
@@ -45,9 +46,10 @@ Programming Logic & Design (2017), 9th edition
   * Action is provided for only one outcome
   
 ### The Single-alternative Selection Structure
+
 ![](/01_pseudocode/assets/singleAlt2.jpg)
 
-Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 **if-then-else decision**
 * if-then clause
@@ -246,13 +248,13 @@ if score1 >= MIN_SCORE OR score2 >= MIN_SCORE OR score3 >= MIN_SCORE then
 
 **When AND and OR operators are combined in the same statement, AND operators are evaluated first**
 ```
-if age <= 12 OR age >= 65 AND 
+if age <= 16 OR age >= 61 AND 
  rating = "G"
 ```
 
 **Use parentheses to correct logic and force evaluations to occur in the order desired**
 ```
-if (age <= 12 OR age >= 65) 
+if (age <= 16 OR age >= 61) 
 AND rating = "G"
 ```
 **Mixing AND and OR operators makes logic more complicated**
@@ -268,28 +270,21 @@ AND rating = "G"
 
 **And each value requires a different subsequent action**
 
+**For a range check:**
+* **Make comparisons with the highest or lowest values in each range**
+* **Eliminate unnecessary or previously answered questions**
+* **The AND operator takes precedence over the OR operator**
+* **Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action**
+
 ---
 ## Summary
 
-**Decisions involve evaluating Boolean expressions**
-
-**Use relational operators to compare values**
-
-**An AND decision requires that both conditions be true to produce a true result**
-
-**In an AND decision, first ask the question that is less likely to be true**
-
-**An OR decision requires that either of the conditions be true to produce a true result**
-
-**In an OR decision, first ask the question that is more likely to be true**
-
-**For a range check:**
-* Make comparisons with the highest or lowest values in each range
-* Eliminate unnecessary or previously answered questions
-
-**The AND operator takes precedence over the OR operator**
-
-**Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action**
+* **Decisions involve evaluating Boolean expressions**
+* **Use relational operators to compare values**
+* **An AND decision requires that both conditions be true to produce a true result**
+* **In an AND decision, first ask the question that is less likely to be true**
+* **An OR decision requires that either of the conditions be true to produce a true result**
+* **In an OR decision, first ask the question that is more likely to be true**
 
 ---
 
