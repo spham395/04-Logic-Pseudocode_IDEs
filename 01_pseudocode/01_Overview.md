@@ -194,8 +194,6 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/StartStop4a.png)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
-
 ![](/01_pseudocode/assets/Flowchart5.jpg)
 
 Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
