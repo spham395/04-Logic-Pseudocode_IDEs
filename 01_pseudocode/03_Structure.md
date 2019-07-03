@@ -40,8 +40,11 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 ---
 ## Unstructured Spaghetti Code
 
-### Spaghetti code logic for washing a dog
+**Spaghetti code** - *washing a dog*
+
 ![](/01_pseudocode/assets/spaghetti1.jpg)
+
+Programming Logic & Design (2017), 9th edition
 
 ---
 ## Understanding the Three Basic Structures
