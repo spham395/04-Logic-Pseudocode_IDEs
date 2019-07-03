@@ -1,29 +1,28 @@
-<!---
-
-
-
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-## Making Decisions
+---
+ 
+![](/01_pseudocode/assets/bookCover.png)
 
-**Sources for this lesson include:** Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
-
-**All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
+**Information used in this lesson topic and Figures shown are from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
+
+---
+
+## Making Decisions
 
 **Objective**
 
 **In this section, you will learn about:**
 
-* In this chapter, you will learn about:
-* The selection structure
-* The relational comparison operators
-* AND logic
-* OR logic
-* NOT logic
+* Selection structure
+* Relational comparison operators
+* **AND** logic
+* **OR** logic
+* **NOT** logic
 * Making selections within ranges
-* Precedence when combining AND and OR operators
-* The case structure
+* Precedence when combining **AND** and **OR** operators
+* case structure
 
 ---
 ## The Selection Structure
@@ -40,11 +39,15 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 ### The Dual-alternative Selection Structure
 ![](/01_pseudocode/assets/dualAlt1.jpg)
 
+Programming Logic & Design (2017), 9th edition
+
 **Single-alternative (or unary) selection structure**
   * Action is provided for only one outcome
   
 ### The Single-alternative Selection Structure
 ![](/01_pseudocode/assets/singleAlt2.jpg)
+
+Programming Logic & Design (2017), comprehensive, 9th edition
 
 **if-then-else decision**
 * if-then clause
@@ -61,26 +64,26 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Two values compared can be either variables or constants but must be same data type
 
 **Trivial expressions**
-* Will always evaluate to the same result
+* Always evaluates to the same result
 
 **Example:**
 ```
-20 = 20?	TRUE
-30 = 40?	FALSE
+35 = 35?	TRUE
+17 = 71?	FALSE
 ```
 **Relational comparison operators**
 * Equivalency operator: =
-  * Evaluates as true when its operands are equivalent
+  * True when its operands are equal
 * Greater-than operator: >
-  * Evaluates as true when the left operand is greater than the right operand
+  * True when the left operand is greater than the right operand
 * Less-than operator: <
-  * Evaluates as true when the left operand is less than the right operand
+  * True when the left operand is less than the right operand
 
 **Relational comparison operators**
 * Greater-than–or-equal-to operator: >=
-  * Evaluates as true when the left operand is greater than or equivalent to the right operand
+  * True when the left operand is **greater** than or **equal** to the right operand
 * Less-than–or-equal-to operator: <=
-  * Evaluates as true when the left operand is less than or equivalent to the right operand
+  * Evaluates as true when the left operand is less than or equal to the right operand
 * Not-equal-to operator: <>
   * Evaluates as true when its operands are not equivalent 
 
@@ -291,7 +294,3 @@ AND rating = "G"
 ---
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/05_Looping.md" > Continue to Next Topic </a>
-
-
-
---->
