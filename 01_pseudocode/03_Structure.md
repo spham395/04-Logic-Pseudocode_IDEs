@@ -38,9 +38,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Follow the rules of structured logic
 
 ---
-## Unstructured Spaghetti Code
-
-**Spaghetti code** - *washing a dog*
+### Example: Spaghetti code - *washing a dog*
 
 ![](/01_pseudocode/assets/spaghetti1.jpg)
 
