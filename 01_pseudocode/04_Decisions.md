@@ -270,11 +270,6 @@ AND rating = "G"
 
 **And each value requires a different subsequent action**
 
-**For a range check:**
-* **Make comparisons with the highest or lowest values in each range**
-* **Eliminate unnecessary or previously answered questions**
-* **The AND operator takes precedence over the OR operator**
-* **Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action**
 
 ---
 ## Summary
@@ -285,6 +280,12 @@ AND rating = "G"
 * **In an AND decision, first ask the question that is less likely to be true**
 * **An OR decision requires that either of the conditions be true to produce a true result**
 * **In an OR decision, first ask the question that is more likely to be true**
+
+## Range check:
+* **Make comparisons with the highest or lowest values in each range**
+* **Eliminate unnecessary or previously answered questions**
+* **The AND operator takes precedence over the OR operator**
+* **Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action**
 
 ---
 
