@@ -1,33 +1,33 @@
-<!---
-
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
-## Understanding Structures
+---
+ 
+![](/01_pseudocode/assets/bookCover.png)
 
-**Sources for this lesson include:** Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
-
-**All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
+**Information used in this lesson topic and Figures shown are from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
+
+## Understanding Structures
 
 **Objective**
 
 **In this section, you will learn about:**
 
-* The disadvantages of unstructured spaghetti code
-* The three basic structures—sequence, selection, and loop
-* Using a priming input to structure a program
-* The need for structure
-* Recognizing structure
+* Unstructured spaghetti code disadvantages
+* Three basic structures: sequence, selection, & loop
+* Structuring a program using a priming input
+* Why a structure
+* Recognizing a structure
 * Structuring and modularizing unstructured logic
 
 ---
-## The Disadvantages of Unstructured Spaghetti Code
+## Unstructured Spaghetti Code Disadvantages
 
 **Spaghetti code**
-* Logically snarled program statements
+* Unstructured tangled web of program statements
 * Often a complicated mess
 * Programs often work but are difficult to read and maintain
-* Confusing and prone to error
+* Confusing and prone to error (nearly impossible to debug)
 
 **Unstructured programs**
 * Do not follow the rules of structured logic
@@ -46,7 +46,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 **Structure**
 * Basic unit of programming logic 
-* Each structure is one of the following:
+* Three types of structure include:
   * Sequence structure
   * Selection structure (decision structure)
   * Loop structure
@@ -87,7 +87,7 @@ if employee belongs to dentalPlan then
 * An else clause is not required
 
 **null case**
-* Situation where nothing is done
+* Circumstance where nothing is done
 
 ---
 ## The Loop Structure
@@ -159,7 +159,7 @@ endwhile
 ## Summary
 
 **Spaghetti code**
-* Statements that do not follow rules of structured logic
+* Statements not following the rules of structured logic
 
 **Three basic structures**
 * Sequence, selection, and loop
@@ -179,5 +179,3 @@ endwhile
 **Logical steps can be rewritten to conform to the three structures: sequence, selection, and loop**
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/04_Decisions.md" > Continue to Next Topic </a>
-
---->
