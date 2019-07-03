@@ -4,13 +4,10 @@
 
 ![](/01_pseudocode/assets/bookCover.png)
 
-# Pseudocode, Logic, and Design
+## Pseudocode Overview
 
-**Sources for this lesson include:** Farrell Joyce, "Programming Logic & Design, (2017) comprehensive", 9th edition.**
-
-**All Graphs and Figures taken from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
+**Information used in this lesson topic and Figures shown are from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
 ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
-
 **Objectives**
 
 **In this chapter, you will learn about:**
