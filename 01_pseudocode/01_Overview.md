@@ -109,14 +109,14 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ![](/01_pseudocode/assets/Dev_Cycle.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 ## Using Software to Translate the Prgram into Machine Language
 
 ![](/01_pseudocode/assets/machLang.png)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 
@@ -167,14 +167,13 @@ stop
 
 ![](/01_pseudocode/assets/input1.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 **Processing symbol**
 * Contains processing statements such as arithmetic
 * Rectangle
 
 ![](/01_pseudocode/assets/mynumb2.jpg)
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 **Output symbol**
 * Represents output statements
@@ -182,7 +181,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/MyAnsw3.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 **Flowlines**
 * Arrows that connect steps
@@ -196,7 +195,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/Flowchart5.jpg)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 
@@ -216,7 +215,7 @@ Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
 
 ![](/01_pseudocode/assets/EndProg6.png)
 
-Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition
+Programming Logic & Design (2017), 9th edition
 
 ---
 
