@@ -265,11 +265,7 @@ AND rating = "G"
 ## Understanding the *case* Structure
 
 **Case structure – specialized selection structure**
-
-**Use when there are several distinct possible values for a single variable**
-
-**And each value requires a different subsequent action**
-
+* Use when there are several distinct possible values for a single variable and each value requires a different subsequent action
 
 ---
 ## Summary
