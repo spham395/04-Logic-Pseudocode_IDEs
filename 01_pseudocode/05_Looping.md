@@ -53,7 +53,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Performed a different number of times each time the program executes
 * The user decides how many times the loop executes
 
-![](/01_pseudocode/assets/flowchart1.jpg)
+![](/01_pseudocode/assets/indefLoop.png)
 
 ---
 
