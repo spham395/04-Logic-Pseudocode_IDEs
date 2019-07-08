@@ -117,6 +117,8 @@ Each element in one array is associated with an element in the same relative pos
 **Look through the valid item array for the customer’s item
 When a match is found, get the price from the item price array
 
+![](/01_pseudocode/assets/parallelArrays.jpg)
+
 ### Parallel Arrays
 Use parallel arrays when:
 Two or more arrays contain related data
