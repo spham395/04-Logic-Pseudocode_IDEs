@@ -247,7 +247,7 @@ string MONTH[12] = "January", "February",
 * A subscript is out of bounds if it is not within the defined range of acceptable subscripts
 * The for loop is a convenient tool for working with arrays when processing each element of an array from beginning to end
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_IDEs/01_IDEs.md" > Continue to Subject </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_IDEs/01_IDEs.md" > Continue to next Subject </a>
 
 
 
