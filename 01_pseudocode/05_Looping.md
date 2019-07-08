@@ -100,18 +100,19 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 **Comparable while and for statements that output Hello 4 times**
 
 ```
-count = 0                  |     for count = 0 to 3 step 1
-while count <= 3           |         output "Hello"
-    output "Hello"         |     endfor
-    count = count +1       |
-endwhile                   |
+count = 0		|	for count = 0 to 3 step 1
+while count <= 3	|	    output "Hello"
+    output "Hello"	|	endfor
+    count = count +1	|
+endwhile		|
+
 ```
 
 **Example:**
 
 ```
 for count = 0 to 3 step 1
-		output "Hello"
+    output "Hello"
 endfor
 
 ```
