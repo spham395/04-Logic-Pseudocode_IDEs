@@ -55,6 +55,8 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 
 ![](/01_pseudocode/assets/indefLoop.png)
 
+Programming Logic & Design (2017), 9th edition
+
 ---
 
 ### Understanding the Loop in a Program’s Mainline Logic
