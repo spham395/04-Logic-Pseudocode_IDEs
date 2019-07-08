@@ -49,6 +49,7 @@ ISBN-10: 1-337-10207-5, ISBN-13: 978-1-337-10207-0
 * Sentinel value – used to create an indefinite loop
 
 ### Indefinite Loop with a Sentinel Value
+
 **Indefinite loop**
 * Performed a different number of times each time the program executes
 * The user decides how many times the loop executes
@@ -83,6 +84,7 @@ Programming Logic & Design (2017), 9th edition
 * The total number of iterations executed by a nested loop is the number of inner loop iterations times the number of outer loop iterations
 
 ### Loop Mistakes
+
 **Mistake: using the wrong comparison when testing loop control variable**
 * Programmers must use correct comparison
 * Seriousness depends on actions performed within a loop
@@ -150,6 +152,7 @@ endfor
 * Examples
   * Business reports often include totals
   * List of real estate sold and total value
+  
 **Accumulator: variable that gathers values**
 * Similar to a counter
   * Counter increments by 1
@@ -159,6 +162,7 @@ endfor
 * Initialize the accumulator to 0
 * Accumulators are altered: once for every data set processed
 * At the end of processing, accumulators are output
+
 **Summary reports**
 * Contain only totals with no detail data
 * Loops are processed but detail information is not printed
