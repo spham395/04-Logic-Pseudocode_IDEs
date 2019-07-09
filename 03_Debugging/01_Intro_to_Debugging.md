@@ -36,7 +36,6 @@ Identified below are some of the different tools that we can utilize for debuggi
 
 * GDB
 * `<stdio>`
-* CLion
 * VS Code
 * Terminal Output
 * IDA Pro
