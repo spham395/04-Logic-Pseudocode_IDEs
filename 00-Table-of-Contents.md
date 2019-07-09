@@ -9,7 +9,6 @@
   * [Making Decisions](01_pseudocode/04_Decisions.md)
   * [Looping](01_pseudocode/05_Looping.md)
   * [Arrays](01_pseudocode/06_Arrays.md)
-* [IDE's](01_IDEs/01_IDEs.md)
 * [Algorithms Pt1](02_Agorithms_pt1/01_Algorithms.md)
 * [Algorithms Practice](02_Agorithms_pt1/02_Algorithms_Practice.md)
 * [Intro to Debugging](03_Debugging/01_Intro_to_Debugging.md)
