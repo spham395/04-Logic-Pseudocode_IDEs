@@ -2,7 +2,7 @@
 
 <a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" rel="Return to Course Introduction"> Return to Course introduction </a>
 
-* [Logic & Pseudocode]()
+* [Logic & Pseudocode](01_pseudocode/README.md)
   * [Overview of Computer Programming](01_pseudocode/01_Overview.md)
   * [Pseudocode](01_pseudocode/02_pseudocode.md)
   * [Understanding Structure](01_pseudocode/03_Structure.md)
