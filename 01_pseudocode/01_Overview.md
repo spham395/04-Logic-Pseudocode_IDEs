@@ -217,7 +217,7 @@ Programming Logic & Design (2017), 9th edition
 
 ## Demonstration Labs
 
-**FLOWCHARTS**
+**Flowcharts**
 
 * Draw a flowchart or write pseudocode to represent the logic of a program that allows the user to enter a value.  The program multiplies the value by 10 and outputs the result.
 
