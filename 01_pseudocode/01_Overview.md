@@ -215,7 +215,40 @@ Programming Logic & Design (2017), 9th edition
 
 ---
 
-## Summary
+## Demonstration Labs
+
+**FLOWCHARTS**
+
+* Draw a flowchart or write pseudocode to represent the logic of a program that allows the user to enter a value.  The program multiplies the value by 10 and outputs the result.
+
+* Draw a flowchart or write pseudocode to represent the logic of a program that allows the user to enter a value for hours worked in a day.  The program calculates the hours worked in a five-day week and the hours worked in a 252- day work year.  The program outputs all the results.
+
+* Draw a flowchart or write pseudocode to represent the logic of a program that allows the user to enter values for the current year and the user's birth year.  The program outputs the age of the user this year.
+
+**Find the Bugs**
+
+Since the early days of computer programming, program errors have been called bugs.  The term is often said to have origiated from an actual moth that was discovered trapped in the circuitry of a computer at Harvard University in 1945.  Actually, the term *bug* was in use prior to 1945 to mean trouble with any electrical apparatus; even during Thomas Edison's life, it meant an indusrial defect.  The term *debugging*, however, is more closely associated with correcting program syntax and logic errors than with any other type of trouble.
+
+* Your provided files include DEBUG01-01.txt, DEBUG01-02.txt, DEBUG01-03.txt. Each file starts with some comments (lines that begin with two slashes) that describe the program. Examine the pseudocode that follows the introductory comments, and then find and correct all the bugs. 
+
+* Your provided file includes a file named DEBUG01.04.jpg that contains a flowchart with syntax and/or logical errors.  Examine the flowchart, and then find and correct all the bugs.
+
+* If the follwoing pseudocode were a actual program, why would it not display the output that the programmer expects?
+
+```
+  Declare String favoriteFood
+  
+  Display "What is the name of your favorite food?"
+  Input favoriteFood
+  
+  Display "Your favorite food is "
+  Display "favoriteFood"
+  
+ ```
+ 
+ ---
+ 
+ ## Summary
 
 * Hardware and software accomplish input, processing, and output
 
@@ -230,5 +263,5 @@ Programming Logic & Design (2017), 9th edition
 * Use a text editor or an IDE to enter your program statements
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/02_pseudocode.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/02_pseudocode.md" > Continue to Performance Labs </a>
 
