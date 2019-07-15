@@ -263,7 +263,9 @@ Since the early days of computer programming, program errors have been called bu
 * Use a text editor or an IDE to enter your program statements
 ---
 
-## Please complete the instructor provide Performance Lab1 then continue to the next topic
+## Performance Lab
+
+* Please complete the instructor provided **Performance Lab 1** then continue to the next topic
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/02_pseudocode.md" > Continue to next Topic </a>
 
