@@ -265,7 +265,6 @@ Since the early days of computer programming, program errors have been called bu
 
 ## Performance Lab
 
-* Please complete the instructor provided **Performance Lab 1** then continue to the next topic
+* Please complete the instructor provided **Performance Labs 1**
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/02_pseudocode.md" > Continue to next Topic </a>
-
+<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab1.md" > Continue to Performance Lab 1 </a>
