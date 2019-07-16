@@ -232,11 +232,11 @@ Programming Logic & Design (2017), 9th edition
 
 **Find The Bugs**
 
-* Your files for this will be provided by the instructor.  They include; DEBUG02-01.txt, DEBUG02-02.txt, and DEBUG02-03.txt.  Each file starts with some comments that describe the problem.  Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct.
+Your files for this will be provided by the instructor.  They include; DEBUG02-01.txt, DEBUG02-02.txt, and DEBUG02-03.txt.  Each file starts with some comments that describe the problem.  Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct.
 
-* Your files for this will be provided by the instructor.  They include; DEBUG02-04.jpg that contains a flowchart with syntax and/or logical errors.  Examine the flowchart, and then find and correct all of the bugs.
+Your files for this will be provided by the instructor.  They include; DEBUG02-04.jpg that contains a flowchart with syntax and/or logical errors.  Examine the flowchart, and then find and correct all of the bugs.
 
----
+
 * Find the error in the following pseudocode
 ```
 Module main()
@@ -250,6 +250,8 @@ Module getMileage()
     Input mileage
 End Module
 ````
+
+---
 
 * Find the potential error in the following pseudocode.
 
