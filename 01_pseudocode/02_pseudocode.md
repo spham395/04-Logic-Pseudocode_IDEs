@@ -227,6 +227,9 @@ Programming Logic & Design (2017), 9th edition
 
 * Draw the hierarchy chart and design the logic for a program for Arnie's Appliances.  Design a program that prompts the user for a refrigerator model nmae and the interior height, width, and depth in inches.  Calculate the refrigerator capacity in cubic feet by first multiplying the height, width, and depth to get cubic inches, and then dividing by 1728 (the number of cubic inches in cubic foot). The program accepts model names continuoulsly until "XXX" is entered. Use named constants  where appropriate. Also use modules, including one that displays *End of job* after the sentinel is entered for the model name.
 
+---
+## Practice Exercises
+
 **Find The Bugs**
 
 * Your files for this will be provided by the instructor.  They include; DEBUG02-01.txt, DEBUG02-02.txt, and DEBUG02-03.txt.  Each file starts with some comments that describe the problem.  Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct.
@@ -272,9 +275,13 @@ End Module
 * As programs become more complicated: 
 * Need for good planning and design increases
 
+---
+
 **Performance Lab 2**
 
 * Continue to Performance Lab 2 prior to continuing to the next topic.
+
+---
 
 <a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab2.md" > Continue to Performance Lab2 </a>
 
