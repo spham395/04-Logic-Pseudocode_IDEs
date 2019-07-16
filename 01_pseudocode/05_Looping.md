@@ -193,6 +193,11 @@ endfor
 * Many data items can be checked for reasonableness
 * Good defensive programs try to foresee all possible inconsistencies and errors
 
+### Demonstration Labs
+
+**
+
+
 ### Summary
 
 * Loops write one set of instructions that operate on multiple, separate sets of data
@@ -217,7 +222,7 @@ endfor
 
 ---
 
-**Performance Lab 5
+**Performance Lab 5**
 
 * Complete performance lab 5 before continuing to the next Topic
 
