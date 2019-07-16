@@ -229,6 +229,58 @@ string MONTH[12] = "January", "February",
 
 **Highest usable subscript is one less than the array size**
 
+---
+### Demonstration Lab
+
+* Design the logic for a program that allows a user to enter 20 numbers, then displays them in the reverse order of entry. b. Modify the reverse-display program so that the user can enter any amount of numbers up to 20 until a sentinel value is entered. 
+
+* Design the logic for a program that allows a user to enter 20 numbers, then displays all of the numbers, the largest number, and the smallest. b. Modify the program in Exercise 3a so that the user can enter any amount of numbers up to 20 until a sentinel value is entered. 
+
+* The Downdog Yoga Studio offers five types of classes, as shown Below:
+
+|-----------------------------------|
+| Class Number            Class Name|
+|1                        Yoga 1    |
+|2                        Yoga 2    |
+|3                  Children's Yoga |
+|4                    Prenatal Yoga |
+|5                    Senior Yoga 1 |
+|-----------------------------------|
+
+
+
+* Design a program that accepts a number representing a class and then displays the name of the class. b. Modify the Downdog Yoga Studio program so that numeric class requests can be entered con-tinuously until a sentinel value is entered. Then display each class number, name, and a count of the number of requests for each class. 
+Class Number Class Name 
+1 2 3 4 
+5 
+Yoga 1 Yoga 2 Children's Yoga Prenatal Yoga Senior Yoga 
+Table 6.1 
+Downdog Yoga Studio classes
+
+
+
+
+
+7. The Jumpin Jive coffee shop charges $2 for a cup of coffee and offers the add-ins shown in Table 6-2. 
+Design the logic for an application that allows a user to enter ordered add-ins continuously until a sentinel value is entered. After each 
+Product Price ($) Whipped cream 0.89 Cinnamon 0.25 Chocolate sauce 0.59 Amaretto 1.50 Irish whiskey 1.75 
+item, display its price or the Table 6-2 Add in list for Jumpin' Jive coffee shop message Sorry, we do not carry that as output. After all items have been entered, display the total price for the order. 
+9. Design a program that computes pay for employees. Allow a user to continuously input employee? names until an appropriate sentinel value is entered. Also input each employee's hourly wage and hours worked. Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). Display all the results for each employee. After the last employee has been entered, display the sum of all the 
+Weekly Gross Pay ($) Withholding Percentage (%) 
+0.00-300.00 10 300.01-550.00 13 550.01-800.00 16 800.01 and up 20 
+hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
+
+**Exercises**
+
+Find the Bugs: 
+1. Your downloadable files for Chapter 6 include DEBUG06-01.txt, DEBUG06-02. txt, and DEBUG06-03.txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
+2. Your downloadable files for Chapter 6 include a file named DEBUG06-04.jpg that contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs. 
+
+1. Why does the following pseudocode not perform as indicated in the comments? 
+// This program asks the user to enter a value // between 1 and 10 and validates the input. Declare Integer value 
+// Get a value from the user. Display "Enter a value between 1 and 10." Input value 
+// Make sure the value is between 1 and 10. While value < 1 AND value > 10 Display "ERROR: The value must be between 1 and 10." Display "Enter a value between 1 and 10." Input value End While 
+
 ### Summary
 * Array: a named series or list of values in memory
   * Same data type
@@ -247,7 +299,13 @@ string MONTH[12] = "January", "February",
 * A subscript is out of bounds if it is not within the defined range of acceptable subscripts
 * The for loop is a convenient tool for working with arrays when processing each element of an array from beginning to end
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/01_Intro_to_Debugging.md" > Continue to next Subject </a>
+**Performance Lab 6**
+
+* Complete Performance Lab 6 before continuing to the next topic
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab6.md"> Continue Performance Lab 6 </a>
 
 
 
