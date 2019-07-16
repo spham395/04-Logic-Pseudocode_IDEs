@@ -215,7 +215,14 @@ endfor
 * In the selection structure the two logical paths that emerge from a test join together following their actions
 * In the loop structure, the paths that emerge from the test do not join together, instead, one of the paths eventually returns to the same test
 
+---
 
+**Performance Lab 5
+
+* Complete performance lab 5 before continuing to the next Topic
+
+---
+<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab5.md" > Continiue to Performance Lab 5 </a>
 
 
 
