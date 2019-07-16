@@ -267,22 +267,111 @@ AND rating = "G"
 **Case structure – specialized selection structure**
 * Use when there are several distinct possible values for a single variable and each value requires a different subsequent action
 
+## Demonstration Labs
+
+**Assume that the following variables contain the values shown:**
+
+```
+numberBig = 100			wordBig = "Constitution" 
+numberMedium = 10 		wordMedium = "Dance" 
+numberSmall = 1  		wordSmall = "Toy" 
+
+```
+
 ---
+
+**Exercise**
+
+For each of the following Boolean expressions, decide whether the statement is true, false, or illegal. 
+* numberBig > numberSmall 
+* numberBig < numberMedium 
+* numberMedium = numberSmall 
+* numberBig = wordBig 
+* numberBig = "Big" 
+* wordMedium > wordSmall 
+* wordSmal 1 = "TOY" 
+* numberBig <= 5 * numberMedium + 50 
+* numberBig >= 2000
+* numberBig > numberMedium + numberSmall 
+* numberBig > numberMedium AND numberBig < numberSmall 
+* numberBig = 100 OR numberBig > numberSmall 
+* numberBig < 10 OR numberSmall > 10
+* numberBig = 300 AND numberMedium = 10 OR numberSmall = 1 
+* wordSmall > wordBig 
+* wordSmall > wordMedium
+
+* Design a flowchart or pseudocode for a program that accepts three numbers from a user and displays a message if the sum of any two numbers equals the third. 
+
+* ShoppingBay is an online auction service that requires several reports. Data for each auctioned item includes an ID number, item description, length of auction in days, and minimum required bid. Design a flowchart or pseudocode for the following: 
+
+  * A program that accepts data for one auctioned item. Display data for an auction only if the minimum required bid is more than $250.00. 
+  * A program that continuously accepts auction item data until a sentinel value is entered and displays all data for auctions in which the minimum required bid is more than $300.00. 
+  * A program that continuously accepts auction item data and displays data for every auction in which there are no bids yet (in other words, the minimum bid is $0.00) and the length of the auction is seven days or less. 
+  * A program that continuously accepts auction data and displays data for every auction in which the length is between 14 and 28 days inclusive. 
+  * A program that prompts the user for a maximum required bid, and then continuously accepts auction data and displays data for every auction in which the minimum bid is less than or equal to the amount entered by the user.
+
+* The Drive-Rite Insurance Company provides automobile insurance policies for drivers. Design a flowchart or pseudocode for the following: 
+  * A program that accepts insurance policy data, including a policy number, customer last name, customer first name, age, premium due date (month, day, and year), and number of driver accidents in the last three years. If an entered policy number is not between 1000 and 9999 inclusive, set the policy number to O. If the month is not between 1 and 12 inclusive, or the day is not correct for the month (for example, not between 1 and 31 for January or 1 and 29 for February), set the month, day, and year to 0. Display the policy data after any revisions have been made. 
+  * A program that continuously accepts policy holders' data until a sentinel value has been entered, and displays the data for any policy holder over 40 years old. 
+  * A program that continuously accepts policy holders' data until a sentinel value has been entered, and displays the data for any policy holder who is at least 18 years old. 
+  * A program that continuously accepts policy holders' data and displays the data for any policy holder no more than 60 years old. 
+  * A program that continuously accepts policy holders' data and displays the data for any policy holder whose premium is due no later than April 30 any year. 
+  * A program that continuously accepts policy holders' data and displays the data for any policy holder whose premium is due up to and including January 1, 2018. 
+  * A program that continuously accepts policy holders' data and displays the data for any policy holder whose premium is due by June 1, 2018. 
+  * A program that continuously accepts policy holders' data and displays the data for anyone who has a policy number between 1000 and 4000 inclusive, whose policy comes due in September or October of any year, and who has had three or fewer accidents.
+
+* Mark Daniels is a carpenter who creates personalized house signs. He wants an application to compute the price of any sign a customer orders, based on the following factors: 
+  * The minimum charge for all signs is $30. 
+  * If the sign is made of oak, add $15. No charge is added for pine. 
+  * The first six letters or numbers are included in the minimum charge; there is a $3 charge for each additional character. 
+  * Black or white characters are included in the minimum charge; there is an additional $12 charge for gold-leaf lettering. 
+
+* Design a flowchart or pseudocode for the following: 
+ * A program that accepts data for an order number, customer name, wood type, number of characters, and color of characters. Display all the entered data and the final price for the sign. 
+ * A program that continuously accepts sign order data and displays all the relevant information for oak signs with five white letters. 
+ * A program that continuously accepts sign order data and displays all the relevant information for pine signs with gold-leaf lettering and more than 10 characters. 
+
+**Find the Bugs Activities/Labs** 
+
+* Your downloadable files for Chapter 4 include DEBUG04-01.txt, DEBUG04-02. txt, and DEBUG04-03.txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
+
+* Your downloadable files for Chapter 4 include a file named DEBUG04-04.jpg that contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs.
+
+* The programmer intends for this pseudocode to display three random numbers in the range of 1 through 7. According to the way we've been generating random numbers in this book, however, there appears to be an error. Can you find it? 
+
+```
+
+// This program displays three random numbers 
+// in the range of 1 through 7. 
+Declare Integer count 
+
+// Display three random numbers. 
+For count = 1 To 3 
+    Display random(7, 1) 
+End For 
+
+```
+
+---
+
 ## Summary
 
-* **Decisions involve evaluating Boolean expressions**
-* **Use relational operators to compare values**
-* **An AND decision requires that both conditions be true to produce a true result**
-* **In an AND decision, first ask the question that is less likely to be true**
-* **An OR decision requires that either of the conditions be true to produce a true result**
-* **In an OR decision, first ask the question that is more likely to be true**
+* Decisions involve evaluating Boolean expressions
+* Use relational operators to compare values
+* An AND decision requires that both conditions be true to produce a true result
+* In an AND decision, first ask the question that is less likely to be true
+* An OR decision requires that either of the conditions be true to produce a true result
+* In an OR decision, first ask the question that is more likely to be true
 
 ## Range check:
-* **Make comparisons with the highest or lowest values in each range**
-* **Eliminate unnecessary or previously answered questions**
-* **The AND operator takes precedence over the OR operator**
-* **Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action**
+* Make comparisons with the highest or lowest values in each range
+* Eliminate unnecessary or previously answered questions
+* The AND operator takes precedence over the OR operator
+* Case structure is a specialized selection structure that can be used when there are several distinct possible values for a single variable, and each value requires a different subsequent action
 
 ---
+**Performance Lab 4**
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/05_Looping.md" > Continue to Next Topic </a>
+* Complete Performance Lab 4 prior to continuing to the next Topic
+
+<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab4.md" > Continue to Performance Lab 4
