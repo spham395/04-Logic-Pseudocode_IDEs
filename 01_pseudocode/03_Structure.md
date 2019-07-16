@@ -171,32 +171,37 @@ In figure #1 below, the process of buying and planting flowers in the spring was
 ![](/01_pseudocode/assets/Figure2.jpg)
 
 ---
+## Exercises
 
-**Each of the flowchart segments in Figure 3 are unstructured** Redraw each segment so that it does the same processes under the same conditions, but is structured.
+* Each of the flowchart segments in *Figure 3* are **unstructured** 
+
+* Redraw each segment so that it does the same processes under the same conditions, but is **structured**
 
 ![](/01_pseudocode/assets/Figure3a.jpg)
 
 ![](/01_pseudocode/assets/Figure3b.jpg)
 
-## Exercises
+---
 
-* We will assume that you have created a mechanical arm that can hold a pen. The arm can perform the following tasks:
+Assume that you have created a mechanical arm that can hold a pen. The arm can perform the following tasks:
 
-  * Lower the pen to a piece Of paper
-  * Raise the pen from the paper
-  * Move the pen 1 inch along a straight line. 
-    * If the pen is lowered, this action draws a 1-inch line from left to right; 
-    * if the pen is raised, this action just repositions the pen 1 inch to the right 
-  * Turn 90 degrees to the right
-  * Draw a circle that is 1 inch in diameter
- 
+```
+* Lower the pen to a piece Of paper
+* Raise the pen from the paper
+* Move the pen 1 inch along a straight line. 
+  * If the pen is lowered, this action draws a 1-inch line from left to right; 
+  * if the pen is raised, this action just repositions the pen 1 inch to the right 
+* Turn 90 degrees to the right
+* Draw a circle that is 1 inch in diameter
+``` 
  ---
  
 * Draw a structured flowchart or write structured pseudocode describing the logic that would cause the arm to draw or write the following. Have a fellow student act as the mechanical arm and carry out your instructions. Don't reveal the desired outcome to your partner until the exercise is complete. 
-  * 1-inch square b. 
+
+  * 1-inch square
   * 2-inch by 1-inch rectangle 
   * string Of three beads 
-  * short word (for example, cat) 
+  * short word (for example, *cat*) 
   * four-digit number
 
 ---
@@ -210,8 +215,9 @@ In figure #1 below, the process of buying and planting flowers in the spring was
 
 **Find the bugs Activities/Labs** 
 
-The instructor will profide files that include DEBUG03-Ol.txt, DEBUG03-02. txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (n). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
-The instructor will profide files that include DEBUG03-04.jpg, which contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs.
+* The instructor will profide files that include DEBUG03-Ol.txt, DEBUG03-02. txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (n). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct.
+
+* The instructor will profide files that include DEBUG03-04.jpg, which contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs.
 
 * Part of the following pseudocode is incompatible with the Java, Python, C, and C++ languages. Identify the problem How would you fix the problem if you were to translate this pseudocode into one Of the aforementioned languages?
 
@@ -240,6 +246,7 @@ End Module
 * Statement that reads the first input value prior to starting a structured loop
 
 **Structured techniques promote:** 
+
 * Clarity
 * Professionalism
 * Efficiency
