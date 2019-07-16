@@ -256,4 +256,10 @@ End Module
 
 **Logical steps can be rewritten to conform to the three structures: sequence, selection, and loop**
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/04_Decisions.md" > Continue to Next Topic </a>
+**Performance Lab3**
+
+* Complete Performance Lab3 prior to continuing to the next topic
+
+---
+
+<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab3.md" > Continue to Performance Lab 3 </a>
