@@ -236,39 +236,42 @@ string MONTH[12] = "January", "February",
 
 * Design the logic for a program that allows a user to enter 20 numbers, then displays all of the numbers, the largest number, and the smallest. b. Modify the program in Exercise 3a so that the user can enter any amount of numbers up to 20 until a sentinel value is entered. 
 
+---
+
 * The Downdog Yoga Studio offers five types of classes, as shown Below:
 
-| Class Number   |         Class Name|
-|____________|
-|1           |             Yoga 1    |
-|2            |            Yoga 2    |
-|3            |      Children's Yoga |
-|4             |       Prenatal Yoga |
-|5              |      Senior Yoga 1 |
-|-----------------------------------|
+|Class Number | Class Name |
+|   :---:     |   :---:    |
+| 1           | Yoga 1     |
+| 2           | Yoga 2     |
+| 3           | Children's Yoga|
+| 4           | Prenatal Yoga|
+| 5           | Senior Yoga |
 
+  * Design a program that accepts a number representing a class and then displays the name of the class. 
+  * Modify the Downdog Yoga Studio program so that numeric class requests can be entered con-tinuously until a sentinel value is entered. Then display each class number, name, and a count of the number of requests for each class. 
 
+* The Jumpin Jive coffee shop charges $2 for a cup of coffee and offers the add-ins shown in the table below:
 
-* Design a program that accepts a number representing a class and then displays the name of the class. b. Modify the Downdog Yoga Studio program so that numeric class requests can be entered con-tinuously until a sentinel value is entered. Then display each class number, name, and a count of the number of requests for each class. 
-Class Number Class Name 
-1 2 3 4 
-5 
-Yoga 1 Yoga 2 Children's Yoga Prenatal Yoga Senior Yoga 
-Table 6.1 
-Downdog Yoga Studio classes
+|   Product   |   Price    |
+|   :---:     |   :---:    |
+|Whipped Cream|0.89|
+|Cinnamon|0.25|
+|Chocolate Sauce|0.59|
+|Amaretto|1.50|
+|Irish whiskey|1.75|
 
+* Design the logic for an application that allows a user to enter ordered add-ins continuously until a sentinel value is entered. After each 
 
+---
 
-
-
-7. The Jumpin Jive coffee shop charges $2 for a cup of coffee and offers the add-ins shown in Table 6-2. 
-Design the logic for an application that allows a user to enter ordered add-ins continuously until a sentinel value is entered. After each 
-Product Price ($) Whipped cream 0.89 Cinnamon 0.25 Chocolate sauce 0.59 Amaretto 1.50 Irish whiskey 1.75 
-item, display its price or the Table 6-2 Add in list for Jumpin' Jive coffee shop message Sorry, we do not carry that as output. After all items have been entered, display the total price for the order. 
-9. Design a program that computes pay for employees. Allow a user to continuously input employee? names until an appropriate sentinel value is entered. Also input each employee's hourly wage and hours worked. Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). Display all the results for each employee. After the last employee has been entered, display the sum of all the 
+* Design a program that computes pay for employees. Allow a user to continuously input employee? names until an appropriate sentinel value is entered. Also input each employee's hourly wage and hours worked. 
+  *Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). Display all the results for each employee. After the last employee has been entered, display the sum of all the 
 Weekly Gross Pay ($) Withholding Percentage (%) 
 0.00-300.00 10 300.01-550.00 13 550.01-800.00 16 800.01 and up 20 
 hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
+
+---
 
 **Exercises**
 
