@@ -238,13 +238,13 @@ string MONTH[12] = "January", "February",
 
 * The Downdog Yoga Studio offers five types of classes, as shown Below:
 
-|-----------------------------------|
-| Class Number            Class Name|
-|1                        Yoga 1    |
-|2                        Yoga 2    |
-|3                  Children's Yoga |
-|4                    Prenatal Yoga |
-|5                    Senior Yoga 1 |
+| Class Number   |         Class Name|
+|____________|
+|1           |             Yoga 1    |
+|2            |            Yoga 2    |
+|3            |      Children's Yoga |
+|4             |       Prenatal Yoga |
+|5              |      Senior Yoga 1 |
 |-----------------------------------|
 
 
