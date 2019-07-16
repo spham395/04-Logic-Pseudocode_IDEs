@@ -1,7 +1,7 @@
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
 
 ---
- 
+
 ![](/01_pseudocode/assets/bookCover.png)
 
 **Information used in this lesson topic and Figures shown are from the following source:** Farrell, Joyce, Programming Logic & Design (2017), comprehensive, 9th edition. Centage Learning, 20 Channel Center Street, Boston, MA 02210. USA
@@ -158,7 +158,75 @@ endwhile
 
 **Structured programming is sometimes called goto-less programming**
 
+## Demonstration Labs
+
+**Flowcharts**
+
+In figure #1 below, the process of buying and planting flowers in the spring was shown using the same structures as the generic example in Figure #2. We will use the same logical structure as in Figure2 to create a flowchart or pseudocode that describes some other process
+
+![](/01_pseudocode/assets/Figure1.jpg)
+
 ---
+
+![](/01_pseudocode/assets/Figure2.jpg)
+
+---
+
+**Each of the flowchart segments in Figure 3 are unstructured** Redraw each segment so that it does the same processes under the same conditions, but is structured.
+
+![](/01_pseudocode/assets/Figure3a.jpg)
+
+![](/01_pseudocode/assets/Figure3b.jpg)
+
+## Exercises
+
+* We will assume that you have created a mechanical arm that can hold a pen. The arm can perform the following tasks:
+
+  * Lower the pen to a piece Of paper
+  * Raise the pen from the paper
+  * Move the pen 1 inch along a straight line. 
+    * If the pen is lowered, this action draws a 1-inch line from left to right; 
+    * if the pen is raised, this action just repositions the pen 1 inch to the right 
+  * Turn 90 degrees to the right
+  * Draw a circle that is 1 inch in diameter
+ 
+ ---
+ 
+* Draw a structured flowchart or write structured pseudocode describing the logic that would cause the arm to draw or write the following. Have a fellow student act as the mechanical arm and carry out your instructions. Don't reveal the desired outcome to your partner until the exercise is complete. 
+  * 1-inch square b. 
+  * 2-inch by 1-inch rectangle 
+  * string Of three beads 
+  * short word (for example, cat) 
+  * four-digit number
+
+---
+
+* Draw a structured flowchart or write pseudocode that describes the process Of guessing a number between 1 and 100. After each guess, the player is told that the guess is too high or too low. The process continues until the player guesses the correct number. Pick a number and have a fellow student try to guess it by following your instructions.
+ 
+* Draw a structured flowchart or write structured pseudocode describing how to get from your home to your school. Include at least two decisions and two loops. 
+
+* Draw a structured flowchart or write structured pseudocode describing how to buy a new shirt, Include at least two decisions and two loops.
+
+
+**Find the bugs Activities/Labs** 
+
+The instructor will profide files that include DEBUG03-Ol.txt, DEBUG03-02. txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (n). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
+The instructor will profide files that include DEBUG03-04.jpg, which contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs.
+
+* Part of the following pseudocode is incompatible with the Java, Python, C, and C++ languages. Identify the problem How would you fix the problem if you were to translate this pseudocode into one Of the aforementioned languages?
+
+```
+Module checkEquaIity (Integer numl, Integer num2)
+    If num1 — num2 Then 
+       Display "The values are equal. " 
+    Else 
+       Display "The values axe NOT equal." 
+    End If 
+End Module 
+
+```
+---
+
 ## Summary
 
 **Spaghetti code**
