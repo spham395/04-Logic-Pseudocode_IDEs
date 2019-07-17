@@ -266,20 +266,30 @@ string MONTH[12] = "January", "February",
 ---
 
 * Design a program that computes pay for employees. Allow a user to continuously input employee? names until an appropriate sentinel value is entered. Also input each employee's hourly wage and hours worked. 
-  *Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). Display all the results for each employee. After the last employee has been entered, display the sum of all the 
-Weekly Gross Pay ($) Withholding Percentage (%) 
-0.00-300.00 10 300.01-550.00 13 550.01-800.00 16 800.01 and up 20 
-hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
+  * Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). 
+  
+| Weekly Gross Pay ($) | Withholding Percentage (%) |
+|   :---:     |   :---:    |
+|0.00-300.00|10|
+|300.01-550.00|13|
+|550.01-800.00|16|
+|800.01 and up|20|
+  
+Display all the results for each employee. After the last employee has been entered, display the sum of all the hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
 
 ---
 
-**Exercises**
+### Exercises
 
-Find the Bugs: 
-1. Your downloadable files for Chapter 6 include DEBUG06-01.txt, DEBUG06-02. txt, and DEBUG06-03.txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
-2. Your downloadable files for Chapter 6 include a file named DEBUG06-04.jpg that contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs. 
+**Find the Bugs:**
 
-1. Why does the following pseudocode not perform as indicated in the comments? 
+* Your downloadable files for Chapter 6 include DEBUG06-01.txt, DEBUG06-02. txt, and DEBUG06-03.txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
+
+* Your downloadable files for Chapter 6 include a file named DEBUG06-04.jpg that contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs. 
+
+* Why does the following pseudocode not perform as indicated in the comments? 
+
+```
 // This program asks the user to enter a value // between 1 and 10 and validates the input. Declare Integer value 
 // Get a value from the user. Display "Enter a value between 1 and 10." Input value 
 // Make sure the value is between 1 and 10. While value < 1 AND value > 10 Display "ERROR: The value must be between 1 and 10." Display "Enter a value between 1 and 10." Input value End While 
