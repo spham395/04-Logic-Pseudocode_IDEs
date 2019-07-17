@@ -1,15 +1,15 @@
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Continiue to Performance Lab 5"> Return to TOC </a>
 
 ---
-## Performance Lab 6
 
----
+## Performance Lab 6
 
 * A file named MAINTENANCE06-01.txt is included with your downloadable student files. Assume that this program is a working program in your organization and that it needs modifications as described in the comments (lines that begin with two slashes) at the beginning of the file. Your job is to alter the program to meet the new specifications.
 
 * Why does the following pseudocode not perform as indicated in the comments? 
 
 ```
+
 // This program gets a dollar amount from the user 
 // and validates the input 
 Declare Real amount 
@@ -51,6 +51,7 @@ Input response
 End While
 
 ```
+
 ---
 
 * Design the logic for a program that allows a user to enter 20 numbers, then displays each number and its difference from the numeric average of the numbers entered. 
@@ -93,7 +94,8 @@ The department names are shown in the Table below
 
 ---
 
-** End of Performance Lab 6**
+**End of Performance Lab 6**
+
 ---
 
 <a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/01_Intro_to_Debugging.md" > Continue to next Subject </a>
