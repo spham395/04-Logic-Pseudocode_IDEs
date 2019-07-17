@@ -195,8 +195,43 @@ endfor
 
 ### Demonstration Labs
 
-**
+**Design the logic for a program**
 
+* Design the logic for a program for each of the following that:
+  * Outputs every number from 1 through 15.
+  * Outputs every even number from 2 through 200. 
+  * Allows a user to enter a number. Display the sum of every number from 1 through the entered number. 
+  * 
+  
+* Design a program that allows a user to enter any quantity of numbers until a negative number is entered. Then display the highest number and the lowest number. 
+  
+* Design a program for Hunterville College. The current tuition is $20,000 per year, and tuition is expected to increase by 3 percent each year. Display the tuition each year for the next 10 years.
+  * Modify the Hunterville College program so that the user enters the rate of tuition increase instead of having it fixed at 3 percent.
+
+--- 
+
+### Exercise
+
+**Find the bugs**
+
+* Your downloadable files for Chapter 5 include DEBUG05-01.txt, DEBUG05-02. txt, and DEBL/G05-03.txt. Each file starts with some comments that describe the problem. Comments are lines that begin with two slashes (//). Following the comments, each file contains pseudocode that has one or more bugs you must find and correct. 
+
+* Your downloadable files for Chapter 5 include a file named DEBUG05-04.jpg that contains a flowchart with syntax and/or logical errors. Examine the flowchart, and then find and correct all the bugs. 
+
+* The programmer intends for this pseudocode to display three random numbers in the range of 1 through 7. According to the way we've been generating random numbers in this book, however. there appears to be an error. Can you find it? 
+
+```
+// This program displays three random numbers 
+// in the range of 1 through 7. 
+Declare Integer count 
+// Display three random numbers. 
+For count = 1 To 3 
+Display random(7, 1) 
+End For 
+
+```
+
+---
 
 ### Summary
 
