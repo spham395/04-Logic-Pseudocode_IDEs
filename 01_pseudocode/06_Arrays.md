@@ -248,8 +248,11 @@ string MONTH[12] = "January", "February",
 | 4           | Prenatal Yoga|
 | 5           | Senior Yoga |
 
-  * Design a program that accepts a number representing a class and then displays the name of the class. 
-  * Modify the Downdog Yoga Studio program so that numeric class requests can be entered con-tinuously until a sentinel value is entered. Then display each class number, name, and a count of the number of requests for each class. 
+* Design a program that accepts a number representing a class and then displays the name of the class. 
+  * Modify the Downdog Yoga Studio program so that numeric class requests can be entered con-tinuously until a sentinel value is entered. 
+  * Display each class number, name, and a count of the number of requests for each class
+  
+  ---
 
 * The Jumpin Jive coffee shop charges $2 for a cup of coffee and offers the add-ins shown in the table below:
 
@@ -265,8 +268,14 @@ string MONTH[12] = "January", "February",
 
 ---
 
-* Design a program that computes pay for employees. Allow a user to continuously input employee? names until an appropriate sentinel value is entered. Also input each employee's hourly wage and hours worked. 
-  * Compute each employee's Table 6-4 Withholding percentage based on gross pay gross pay (hours times rate), withholding tax percentage (based on Table 64), withholding tax amount, and net pay (gross pay minus withholding tax). 
+* Design a program that computes pay for employees 
+  * Allow a user to continuously input employee names until an appropriate sentinel value is entered 
+  * Input each employee's hourly wage and hours worked
+  * Compute each employee's withholding percentage using the below Table 
+    * based on gross pay (hours times rate) 
+    * withholding tax percentage (based on Table 64) 
+    * withholding tax amount
+    * net pay (gross pay minus withholding tax) 
   
 | Weekly Gross Pay ($) | Withholding Percentage (%) |
 |   :---:     |   :---:    |
@@ -275,7 +284,7 @@ string MONTH[12] = "January", "February",
 |550.01-800.00|16|
 |800.01 and up|20|
   
-Display all the results for each employee. After the last employee has been entered, display the sum of all the hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
+* Display all the results for each employee. After the last employee has been entered, display the sum of all the hours worked, the total gross payroll, the total withholding for all employees, and the total net payroll. 
 
 ---
 
@@ -289,12 +298,30 @@ Display all the results for each employee. After the last employee has been ente
 
 * Why does the following pseudocode not perform as indicated in the comments? 
 
+---
+
 ```
-// This program asks the user to enter a value // between 1 and 10 and validates the input. Declare Integer value 
-// Get a value from the user. Display "Enter a value between 1 and 10." Input value 
-// Make sure the value is between 1 and 10. While value < 1 AND value > 10 Display "ERROR: The value must be between 1 and 10." Display "Enter a value between 1 and 10." Input value End While 
+// This program asks the user to enter a value 
+// between 1 and 10 and validates the input. 
+Declare Integer value 
+
+// Get a value from the user. 
+Display "Enter a value between 1 and 10." 
+Input value 
+
+// Make sure the value is between 1 and 10. 
+While value < 1 AND value > 10 
+    Display "ERROR: The value must be between 1 and 10." 
+    Display "Enter a value between 1 and 10." 
+    Input value 
+End While 
+
+```
+
+---
 
 ### Summary
+
 * Array: a named series or list of values in memory
   * Same data type
   * Different subscript
@@ -312,6 +339,8 @@ Display all the results for each employee. After the last employee has been ente
 * A subscript is out of bounds if it is not within the defined range of acceptable subscripts
 * The for loop is a convenient tool for working with arrays when processing each element of an array from beginning to end
 
+---
+
 **Performance Lab 6**
 
 * Complete Performance Lab 6 before continuing to the next topic
@@ -319,18 +348,3 @@ Display all the results for each employee. After the last employee has been ente
 ---
 
 <a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab6.md"> Continue Performance Lab 6 </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
