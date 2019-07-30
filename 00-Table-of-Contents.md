@@ -11,5 +11,5 @@
   * [Arrays](01_pseudocode/06_Arrays.md)
 * [Intro to Debugging](03_Debugging/01_Intro_to_Debugging.md)
   * [IO Debugging](03_Debugging/02_IO_Debugging.md)
-  * [IDE's](03_Debugging/04.0_IDEs.md)
+  * [Visual Studio Code Debugging](03_Debugging/04.3_VSCode_Debugging.md)
   * [Visual Studio Debugging](03_Debugging/04.2_VS_Debugging.md)
