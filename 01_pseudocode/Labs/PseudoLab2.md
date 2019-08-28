@@ -1,4 +1,5 @@
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
 ---
 
@@ -59,4 +60,5 @@ End Module
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/01_pseudocode/03_Structure.md" > Continue to Next Topic </a>
+|[Next Topic](/01_pseudocode/03_Structure.md)|
+|---|
