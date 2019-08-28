@@ -1,4 +1,5 @@
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
 ---
  
@@ -285,5 +286,8 @@ End Module
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/04-Logic-Pseudocode_IDEs/blob/master/01_pseudocode/Labs/PseudoLab2.md" > Continue to Performance Lab2 </a>
+---
+
+|[Performance Lab 2](Labs/PseudoLab2.md)|
+|---|
 
