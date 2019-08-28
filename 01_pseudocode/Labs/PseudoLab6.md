@@ -98,6 +98,11 @@ The department names are shown in the Table below
 **End of Performance Lab 6**
 
 ---
+**This Completes the pseudocode topic**  
 
-|[Next Topic](/03_Debugging/01_Intro_to_Debugging.md)|
+**Continue to Introduction to Debugging**
+
+---
+
+|[Introduction to Debugging](/03_Debugging/01_Intro_to_Debugging.md)|
 |---|
