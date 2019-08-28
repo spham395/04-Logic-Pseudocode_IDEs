@@ -1,4 +1,5 @@
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/00-Table-of-Contents.md" rel="Continiue to Performance Lab 5"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
 ---
 
@@ -98,4 +99,5 @@ The department names are shown in the Table below
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/04-IDE-s-and-Algorithms-Pt.-1/blob/master/03_Debugging/01_Intro_to_Debugging.md" > Continue to next Subject </a>
+|[Next Topic](/03_Debugging/01_Intro_to_Debugging.md)|
+|---|
