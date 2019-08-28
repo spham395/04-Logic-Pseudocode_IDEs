@@ -375,5 +375,5 @@ End For
 
 * Complete Performance Lab 4 prior to continuing to the next Topic
 
-|[Next Topic](/01_pseudocode/Labs/PseudoLab4.md)|
+|[Performance Lab 4](/01_pseudocode/Labs/PseudoLab4.md)|
 |---|
