@@ -48,6 +48,6 @@ syntax error
 1.24 What fundamental set of programs controls the internal operations of the computer’s hardware?
 operating system
 1.25 What do you call a program that performs a specialized task, such as a virus scanner, a file compression program, or a data backup program?
-utility
+utility program
 1.26 Word processing programs, spreadsheet programs, email programs, Web browsers, and game programs belong to what category of software?
 application
