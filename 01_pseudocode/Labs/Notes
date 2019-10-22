@@ -1,23 +1,28 @@
-#1. Personal Info
-Declare name
-Declare address
-Declare telephoneNumber
-Declare collegeMajor
-
-Display Prompts
-Input data
-
-Display data
-
-#2. Sales Prediction
-Declare totalSales
-Declare profit
-
-Display "Enter projected amount of total sales"
-Input totalSales
-
-Set profit = totalSales * .23
-
-Display "$", profit, " profit from $", totalSales
-
-#3. Land Calculation
+#1. Personal Info  
+Declare name  
+Declare address  
+Declare telephoneNumber  
+Declare collegeMajor  
+  
+Display Prompts  
+Input data  
+  
+Display data  
+  
+#2. Sales Prediction  
+Declare totalSales  
+Declare profit  
+  
+Display "Enter projected amount of total sales"  
+Input totalSales  
+  
+Set profit = totalSales * .23  
+  
+Display "$", profit, " profit from $", totalSales  
+  
+#3. Land Calculation  
+start  
+    Input totalSquareFeet  
+    Set totalAcre = totalSquareFeet / 43560  
+    Output totalAcre  
+stop   
