@@ -50,3 +50,20 @@ start
     Output "The distance the car will travel in 8 hours", distanceEight 
     Output "The distance the car will travel in 12 hours", distanceTwelve 
 stop  
+
+Stucture pseudocode 22 OCT 2019
+lowerPen()
+movePen()
+rotate90()
+raisePen()
+movePen()
+rotate90()
+lowerPen()
+movePen()
+rotate90()
+movePen()
+rotate90()
+raisePen()
+movePen()
+drawCircle()
+rotate90()
