@@ -1,22 +1,28 @@
 # Checkpoint
 4.1 What is a control structure?
-
+  logical, makes sense, organized  
 4.2 What is a decision structure?
-
+  set structure with options  
 4.3What is a single alternative decision structure?
-
+  one continuous path, set  
 4.4 What is a Boolean expression?
-
+  True of False  
 4.5 What types of relationships between values can you test with relational operators?
-
+  greater, less, equal, not equal, greater or equal, less or equal  
 4.6 Write a pseudocode If-Then statement that assigns 0 to x if y is equal to 20.
-
-4.7 Write a pseudocode If-Then statement that assigns 0.2 to commission if sales is greater than or equal to 10,000.
+  if y == 20 then  
+   set x = 0  
+  endif  
+4.7 Write a pseudocode If-Then statement that assigns 0.2 to commission if sales is greater than or equal to 10,000.  
+  if sales >= 10000 then  
+    set comm = 0.2  
+  endif  
 4.8 How does a dual alternative decision structure work?
-
+  
 4.9 What statement do you use in pseudocode to write a dual alternative decision structure?
-
-4.10 When you write an If-Then-Else statement, under what circumstances do the statements that appear between Else and End If execute?
+ if-else
+4.10 When you write an If-Then-Else statement, under what circumstances do the statements that appear between Else and End If execute?  
+  when condition is false  
 4.11 If the following pseudocode were an actual program, what would it display?
 ```
 If "z" < "a" Then
@@ -24,7 +30,8 @@ If "z" < "a" Then
 Else
    Display "z is not less than a."
 End If
-```
+```  
+  "z is not less than a."  
 4.12 If the following pseudocode were an actual program, what would it display?
 ```
 Declare String s1 = "New York"
@@ -37,9 +44,9 @@ Else
    Display s2
 End If
 ```
-
+  "boston, new york"  
 4.13 How does a dual alternative decision structure work?
-
+  
 4.14 What statement do you use in pseudocode to write a dual alternative decision structure?
 
 4.15 When you write an If-Then-Else statement, under what circumstances do the statements that appear between the Else clause and the End If clause execute?
@@ -60,7 +67,17 @@ Else
    End If
 End If
 ```
-
+```
+If number == 1 Then
+   Display "One"
+Else If number == 2 Then
+   Display "Two"
+Else If number == 3 Then
+   Display "Three"
+Else
+   Display "Unknown"
+End If
+```
 4.17 What is a multiple alternative decision structure?
 
 4.18 How do you write a multiple alternative decision structure in pseudocode?
