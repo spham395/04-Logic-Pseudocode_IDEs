@@ -26,3 +26,25 @@ start
     Set totalAcre = totalSquareFeet / 43560  
     Output totalAcre  
 stop   
+  
+#4. Total Purchase   
+start  
+    Display "What is the price of each item?"  
+    input item1  
+    input item2  
+    input item3  
+    input item4  
+    input item5  
+    Set subTotal = item1 + item2 + item3 + item4 + item5  
+    Set salesTax = subTotal * 0.06
+    Set total = subTotal + salesTax  
+    Output subTotal, salesTax, total  
+stop
+#5. Distance Traveled  
+start  
+    Set distanceFive = 5 * 60  
+    Set distanceEight = 8 * 60  
+    Set distanceTwelve = 12 * 60  
+    Output "The distance the car will travel in 5 hours", distanceFive  
+    Output "The distance the car will travel in 8 hours", distanceEight 
+    Output "The distance the car will travel in 12 hours", distanceTwelve 
