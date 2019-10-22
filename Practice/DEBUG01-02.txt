@@ -13,5 +13,5 @@ start
    input milesTraveled
    input gallonsOfGasUsed
    milesPerGallon = milesTraveled / gallonsOfGasUsed
-   output milsPerGallon
-start
+   output milesPerGallon
+stop

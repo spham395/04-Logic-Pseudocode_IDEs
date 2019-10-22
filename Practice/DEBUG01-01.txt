@@ -11,7 +11,7 @@ stop
 changes
 start
    input origPrice
-   discount = price * 0.10
+   discount = origPrice * 0.10
    finalPrice = origPrice - discount
    output finalPrice
 stop
