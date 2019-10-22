@@ -37,12 +37,12 @@ Display "The first prize winner will receive "' 1stPrize
 ```
 ```
 Changes
-Declare String 1stPrize
+Declare String firstPrize
 
 Display "Enter the award for first prize."
-Input 1stPrize
+Input firstPrize
 
-Display "The first prize winner will receive ", 1stPrize
+Display "The first prize winner will receive ", firstPrize
 ```
 ---
 
@@ -123,8 +123,8 @@ Move the Set line to after you get value3
 
 ```
 Declare Real pi
-Set 3.14159265 = pi // Set pi = 3.14159265
-Display "The value of pi is ". pi // . -> ,
+Set 3.14159265 = pi **// Set pi = 3.14159265**
+Display "The value of pi is ". pi **// . -> ,**
 
 ```
 
@@ -139,7 +139,7 @@ Display "Earth: ", GRAVITY, " meters per second every second."
 Set GRAVITY = 1.63
 Display "Moon: ", GRAVITY, " meters per second every second."
 
-//Can't change constant
+**//Can't change constant or make the constant a declaration**
 ```
 
 ---
