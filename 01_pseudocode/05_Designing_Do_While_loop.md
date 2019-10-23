@@ -59,7 +59,7 @@ The retail price is $31.25
 Do you have another item? (Enter y for yes.)
 ## n [Enter]
 
-![image](https://user-images.githubusercontent.com/47218880/67348497-be23b500-f50a-11e9-91a5-443a84884641.png)
+![image](https://user-images.githubusercontent.com/47218880/67348845-d0eab980-f50b-11e9-880d-f03cb66a24e7.png)
 
 Figure 5-9 Flowchart for Program 5-6
 
