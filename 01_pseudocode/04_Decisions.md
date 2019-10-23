@@ -334,17 +334,20 @@ For each of the following Boolean expressions, decide whether the statement is t
   ```
   * A program that continuously accepts auction item data and displays data for every auction in which there are no bids yet (in other words, the minimum bid is $0.00) and the length of the auction is seven days or less. 
   ```
-  start
-    Declare Integer IDnumber
-    Declare string itemDescription
-    Declare integer lengthOfAuction
-    Declare Real minBid
-    While eof == False
-      Input IDnumber, itemDescription, lengthOfAuction, minBid
-      If minBid == 0 AND lengthOfAuction <= 7 Then
-        Display IDnumber, itemDescription, lengthOfAuction, minBid
-      Endif
+  start //module main
+    //Declarations
+    Declare Int idNumber
+    Declare Int numDays
+    Declare Real minReqBid
+    Declare String itemDesc
+    Constant Real MIN_BID = 0.00
+    Constant Int MAX_DAYS = 7
+
+
   stop
+
+  enterID()
+    Input
   ```
   * A program that continuously accepts auction data and displays data for every auction in which the length is between 14 and 28 days inclusive. 
   ```
