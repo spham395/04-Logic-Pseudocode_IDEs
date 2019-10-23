@@ -86,6 +86,7 @@ main()
 
     // Display information about the sale.
     displayInfo(purchase, stateTax, countyTax, totalTax, totalSale)
+
 getPurchase()
     Display "Enter the amount of the purchase."
     Input purchase
@@ -124,6 +125,55 @@ Many financial experts advise that property owners should insure their homes or 
 ## Automobile Costs
 
 Design a modular program that asks the user to enter the monthly costs for the following expenses incurred from operating his or her automobile: loan payment, insurance, gas, oil, tires, and maintenance. The program should then display the total monthly cost of these expenses, and the total annual cost of these expenses.
+
+```
+Constant Integer MONTHS_IN_YEAR = 12
+
+main()
+    //Declarations
+    Real loan, insurance, gas, oil, tires, maintenance, totalMonthlyCost, totalAnnualCost
+
+    //Getting data
+    loan = getInfo("Loan")
+    insurance = getInfo("Insurance")
+    gas = getInfo("Gas")
+    oil = getInfo("Oil")
+    tires = getInfor("Tires)
+    maintenance = getInfo("Maintenance")
+    
+    //Calculating Total Monthly
+    totalMonthlyCost = calcTotalMonthlyCost(loan, isurance, gas, oil, tires, maintenance)
+
+    //Calculating Total Annual
+    totalAnnualCost = calcTotalAnnualCost(totalMonthlyCost)
+
+    //Display
+    displayMonthly_Annual(totalMonthlyCost, totalAnnualCost)
+
+getInfo(String typeOfData)
+    Declare Real data
+    Display "Enter monthly cost of ", typeOfData," payment: \n"
+    Input data
+    return data
+
+calcTotalMonthlyCost(Real loan, Real insurance, Real gas, Real oil, Real tires, Real maintenance)
+    totalMonthlyCost = loan + insurance + gas + oil + tires + maintenance
+    return totalMonthlyCost
+
+<!-- calcTotalMonthlyCost(kwargs, args)
+    totalMonthlyCost += args
+    return totalMonthlyCost -->
+
+calcTotalAnnualCost(Real totalMonthlyCost)
+    totalAnnualCost = totalMonthlyCost * MONTHS_IN_YEAR
+    return totalAnnualCost
+
+displayMonthly_Annual(Real totalMonthlyCost, Real totalAnnualCost)
+
+    Display "Total Monthly cost: $", totalMonthlyCost, "\n"
+    Display "Total Annual cost: $", totalAnnualCost
+
+```
 
 ## Property Tax
 
