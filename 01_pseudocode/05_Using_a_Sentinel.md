@@ -1,4 +1,4 @@
-#3 Using a Sentinel
+# Using a Sentinel
 
 The county tax office calculates the annual taxes on property using the following formula:
 
