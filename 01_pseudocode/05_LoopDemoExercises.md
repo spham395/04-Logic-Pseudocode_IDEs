@@ -24,6 +24,7 @@
 21      Input keepGoing
 22  End While
 ```
+```
 Program Output (with Input Shown in Bold)
 Enter the amount of sales.
 10000.00 [Enter] 
@@ -43,3 +44,4 @@ The commission is $1200
 Do you want to calculate another
 commission? (Enter y for yes.)
 n [Enter]
+```
