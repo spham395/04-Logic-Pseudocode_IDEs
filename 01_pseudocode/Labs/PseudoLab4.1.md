@@ -5,13 +5,14 @@ Design a modular program that asks the user to enter a distance in kilometers, a
 
 ![image](https://user-images.githubusercontent.com/47218880/67329523-99b2e300-f4e0-11e9-8a30-3f31fbd76ae1.png)
 
-<<<<<<< HEAD
 ```
+Constant Real KILO_TO_MILE = 0.6214
 main()
     Declare Real distanceKilo
     Declare Real distanceMiles
     distanceKilo = getDistance()
     distanceMiles = kiloToMiles(distanceKilo)
+    displayDistance(distanceKilo, distanceMiles)
 
 getDistance()
     Display "Enter a distance in kilometers."
@@ -19,12 +20,13 @@ getDistance()
     return distanceKilo
 
 kiloToMiles(Real distanceKilo)
-    distanceMiles = distanceKilo * 0.6214
+    distanceMiles = distanceKilo * KILO_TO_MILE
     return distanceMiles
+
+displayDistance(Real distanceKilo, Real distanceMiles)
+    Display "The distance, ", distanceKilo, ", in miles is ", distanceMiles
 ```
 
-=======
->>>>>>> upstream/master
 ## Sales Tax Program Refactoring (Mandatory)
 
 See program below,  the Sales Tax program. This program calculates and displays the county and state sales tax on a purchase. Refactor it so the subtasks are in modules.
@@ -59,7 +61,6 @@ Display "County Tax: ", countyTax
 Display "Total Tax: ", totalTax
 Display "Sale total: ", totalSale
 ```
-<<<<<<< HEAD
 ```
 main()
     // Variable declarations
@@ -69,27 +70,26 @@ main()
     Constant Real COUNTY_TAX_RATE = 0.02
 
     // Get the amount of the purchase.
+    purchase = getPurchase()
+
+    // Calculate the state sales tax.
+    stateTax = calcStateTax(purchase)
+
+    // Calculate the county sales tax.
+    countyTax = calcCountyTax(purchase)
+
+    // Calculate the total tax.
+    totalTax = calcTotalTax(stateTax, countyTax)
+
+    // Calculate the total of the sale.
+    totalSale = calcTotalSale(purchase, totalTax)
+
+    // Display information about the sale.
+    displayInfo(purchase, stateTax, countyTax, totalTax, totalSale)
+getPurchase()
     Display "Enter the amount of the purchase."
     Input purchase
-
-// Calculate the state sales tax.
-
-
-// Calculate the county sales tax.
-
-
-// Calculate the total tax.
-Set totalTax = stateTax + countyTax
-
-// Calculate the total of the sale.
-Set totalSale = purchase + totalTax
-
-// Display information about the sale.
-Display "Purchase Amount: $", purchase
-Display "State Tax: ", stateTax
-Display "County Tax: ", countyTax
-Display "Total Tax: ", totalTax
-Display "Sale total: ", totalSale
+    return purchase
 
 calcStateTax(Real purchase)
     Set stateTax = purchase * STATE_TAX_RATE
@@ -99,13 +99,21 @@ calcCountyTax(Real purchase)
     Set countyTax = purchase * COUNTY_TAX_RATE
     return countyTax
 
-calcTotalTax()
-    Set totalTax = calcStateTax() + calcCountyTax
+calcTotalTax(Real stateTax, Real countyTax)
+    Set totalTax = stateTax + countyTax
     return totalTax
+
+calcTotalSale(Real purchase, Real totalTax)
+    Set totalSale = purchase + totalTax
+    return totalSale
+
+displayInfo(Real purchase, Real stateTax, Real countyTax, Real totalTax, Real totalSale)
+    Display "Purchase Amount: $", purchase
+    Display "State Tax: ", stateTax
+    Display "County Tax: ", countyTax
+    Display "Total Tax: ", totalTax
+    Display "Sale total: ", totalSale
 ```
-=======
- 
->>>>>>> upstream/master
 
 
 
