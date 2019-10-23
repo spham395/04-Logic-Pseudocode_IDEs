@@ -5,6 +5,7 @@ Design a modular program that asks the user to enter a distance in kilometers, a
 
 ![image](https://user-images.githubusercontent.com/47218880/67329523-99b2e300-f4e0-11e9-8a30-3f31fbd76ae1.png)
 
+<<<<<<< HEAD
 ```
 main()
     Declare Real distanceKilo
@@ -22,6 +23,8 @@ kiloToMiles(Real distanceKilo)
     return distanceMiles
 ```
 
+=======
+>>>>>>> upstream/master
 ## Sales Tax Program Refactoring (Mandatory)
 
 See program below,  the Sales Tax program. This program calculates and displays the county and state sales tax on a purchase. Refactor it so the subtasks are in modules.
@@ -56,6 +59,7 @@ Display "County Tax: ", countyTax
 Display "Total Tax: ", totalTax
 Display "Sale total: ", totalSale
 ```
+<<<<<<< HEAD
 ```
 main()
     // Variable declarations
@@ -99,6 +103,9 @@ calcTotalTax()
     Set totalTax = calcStateTax() + calcCountyTax
     return totalTax
 ```
+=======
+ 
+>>>>>>> upstream/master
 
 
 
