@@ -36,20 +36,32 @@ For count = 0 To 10
 * Design a For loop that calculates the total of the following series of numbers:
 ![image](https://user-images.githubusercontent.com/47218880/67423054-31740800-f599-11e9-9565-031c1f729e1c.png)
 ```
-Declare Integer top = 1, bottom = 30
+Declare Integer bottom = 30
 Declare Real total = 0
 For top = 1 To 30
    Set total += top/bottom
    bottom -= 1
 ```
 * Design a nested loop that displays 10 rows of # characters. There should be 15 # characters in each row.
-
+```
+For row = 0 To 10
+   For col = 0 To 15
+      Display "#"
+```
 * Convert the While loop in the following code to a Do-While loop:
 ```
 Declare Integer x = 1
 While x > 0
    Display "Enter a number."
    Input x
+End While
+```
+```
+Declare Integer x = 1
+do
+   Display "Enter a number."
+   Input x
+While x > 0
 End While
 ```
 * Convert the Do-While loop in the following code to a While loop:
@@ -60,6 +72,13 @@ Do
   Input sure
 While sure != "Y" AND sure != "y"
 ```
+```
+Declare String sure
+While sure != "Y" AND sure != "y"
+  Display "Are you sure you want to quit?"
+  Input sure
+End While
+```
 * Convert the following While loop to a For loop:
 ```
 Declare Integer count = 0
@@ -68,10 +87,22 @@ While count < 50
    Set count = count + 1
 End While
 ```
+```
+For count = 0 To 50
+   Display "The count is ", count
+End For
+```
 * Convert the following For loop to a While loop:
 ```
 Declare Integer count
 For count = 1 To 50
    Display count
 End For
+```
+```
+Declare Integer count = 1
+While count < 50
+   Display Count
+   Set count += 1
+End While
 ```
