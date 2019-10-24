@@ -7,7 +7,18 @@ The area of a rectangle is calculated according to the following formula:
 ![image](https://user-images.githubusercontent.com/47218880/67446156-3e165180-f5d5-11e9-8673-1dab25034bff.png)
 
 Design a function that accepts a rectangle’s width and length as arguments and returns the rectangle’s area. Use the function in a program that prompts the user to enter the rectangle’s width and length, and then displays the rectangle’s area.
+```
+Start
+  Declare Integer width, length
+  Display "Enter width and length"
+  Input width, length
+  Display "The area is ", getArea(width, length)
+Stop
 
+Func Integer getArea(Integer w, l)
+  return w * l
+End Func
+```
 ## Feet to Inches
 
 One foot equals 12 inches. Design a function named feetToInches that accepts a number of feet as an argument, and returns the number of inches in that many feet. Use the function in a program that prompts the user to enter a number of feet and then displays the number of inches in that many feet.
@@ -20,7 +31,26 @@ Design a program that gives simple math quizzes. The program should display two 
 + 129
 ```
 The program should allow the student to enter the answer. If the answer is correct, a message of congratulations should be displayed. If the answer is incorrect, a message showing the correct answer should be displayed.
+```
+Start
+  Declare Integer num1, num2, answer
 
+  Set num1 = random(1, 999)
+  Set num2 = random(1, 999)
+  Display num1, " + ", num2, " = "
+  Input answer
+  Call getResult(num1, num2, answer)
+Stop
+
+Func Void getResult(Real num1, num2, answer)
+  Declare Integer result = 0
+  Set result = num1 + num2
+  if answer == result then
+    Display "Congratulations"
+  else
+    Display "Correct Answer: ", result
+End Func
+```
 ## Maximum of Two Values
 
 Design a function named max that accepts two integer values as arguments and returns the value that is the greater of the two. For example, if 7 and 12 are passed as arguments to the function, the function should return 12. Use the function in a program that prompts the user to enter two integer values. The program should display the value that is the greater of the two.
@@ -34,7 +64,20 @@ When an object is falling because of gravity, the following formula can be used 
 The variables in the formula are as follows: d is the distance in meters, g is 9.8, and t is the amount of time, in seconds, that the object has been falling.
 
 Design a function named fallingDistance that accepts an object’s falling time (in seconds) as an argument. The function should return the distance, in meters, that the object has fallen during that time interval. Design a program that calls the function in a loop that passes the values 1 through 10 as arguments and displays the return value.
+```
+Start
+  Declare distance
+  For seconds = 1 To 10
+    Display "For ", seconds, "second(s) the object has fallen ", fallingDistance(seconds), " meters"
+  End For
+Stop
 
+Func Real fallingDistance(Integer time)
+  Constant Real GRAVITY = 9.8
+  distance = .5 * GRAVITY * (time ^ 2)
+  return distance
+End Func
+```
 ## Kinetic Energy
 
 In physics, an object that is in motion is said to have kinetic energy. The following formula can be used to determine a moving object’s kinetic energy:
@@ -48,7 +91,22 @@ Design a function named kineticEnergy that accepts an object’s mass (in ­kilo
 ## Odd/Even Counter
 
 In this chapter you saw an example of how to design an algorithm that determines whether a number is even or odd. Design a program that generates 100 random numbers, and keeps a count of how many of those random numbers are even and how many are odd.
+```
+Declare Integer numOfEven, numOfOdd
 
+Set numOfEven, numOfOdd = evenOrOddCount(100)
+
+Func Integer evenOrOddCount(Integer num)
+  Declare integer countEven = 0, countOdd = 0
+  For 0 To num
+    if (random(1, 100) % 2) == 0
+      countEven += 1
+    else
+      countOdd += 1
+    End if
+  return countEven, countOdd
+End Func
+```
 ## Guess the Number
 
 Design a number guessing game program. The program should generate a random number and then ask the user to guess the number. Each time the user enters his or her guess, the program should indicate whether it was too high or too low. The game is over when the user correctly guesses the number. When the game ends, the program should display the number of guesses that the user made.
@@ -61,11 +119,50 @@ Design a Boolean function named isPrime, which takes an integer as an argument a
 
  ### TIP:
 Recall that the MOD operator divides one number by another and returns the remainder of the division. In an expression such as num1 MOD num2, the MOD operator will return 0 if num1 is evenly divisible by num2.
+```
+start
+  Display "Enter a number to see if it's prime"
+  Input number
+  if isPrime(number) then
+    Display "Number is Prime"
+  else
+    Display "Number is not Prime"
+  end if
+stop
 
+Func Bool isPrime(Integer num)
+  if num <= 1
+    return False
+  For i = 2 To num
+    if num == i then
+      continue
+    if (num % i == 0) then
+      return False
+  return True
+End Func
+```
 ## Prime Number List
 
 This exercise assumes you have already designed the isPrime function in Programming Exercise 10. Design another program that displays all of the prime numbers from 1 through 100. The program should have a loop that calls the isPrime function.
+```
+start
+  For number = 1 To 100
+    if isPrime(number) then
+      Display number, "\n"
+  End For
+stop
 
+Func Bool isPrime(Integer num)
+  if num <= 1
+    return False
+  For i = 2 To num
+    if num == i then
+      continue
+    if (num % i == 0) then
+      return False
+  return True
+End Func
+```
 ## Rock, Paper, Scissors Game
 
 Design a program that lets the user play the game of Rock, Paper, Scissors against the computer. The program should work as follows:
@@ -104,6 +201,27 @@ The program will select and display a word from this list three times.
 If none of the randomly selected words match, the program will inform the user that he or she has won $0. If two of the words match, the program will inform the user that he or she has won two times the amount entered. If three of the words match, the program will inform the user that he or she has won three times the amount entered.
 
 The program will ask whether the user wants to play again. If so, these steps are repeated. If not, the program displays the total amount of money entered into the slot machine and the total amount won.
+```
+```
+start
+  Declare String list = ["Cherries, "Oranges", "Plums", "Bells", "Melons", "Bars"]
+  Declare Real money = 0
+
+  money = getMoney()
+stop
+
+Func Real getMoney()
+  Declare Real number = 0
+  Display "Insert money"
+  Input number
+  return number
+End Func
+
+Func Integer generateMatch(String[] list)
+  For 0 To 3
+
+  End For
+End Func
 ```
 ## ESP Game
 

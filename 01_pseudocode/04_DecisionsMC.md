@@ -4,7 +4,7 @@ sequence
 
 circumstantial
 
-decision
+decision  X
 
 Boolean
 
@@ -12,7 +12,7 @@ Boolean
 
 sequence
 
-single alternative decision
+single alternative decision  X
 
 one path alternative
 
@@ -22,7 +22,7 @@ single execution decision
 
 sequence structure
 
-decision structure
+decision structure  X
 
 pathway structure
 
@@ -36,11 +36,11 @@ decision
 
 unconditional
 
-Boolean
+Boolean  X
 
 5.The symbols >, <, and == are all_________-operators.
 
-relational
+relational  X
 
 logical
 
@@ -54,7 +54,7 @@ If-Then statement
 
 single alternative decision
 
-dual alternative decision
+dual alternative decision  X
 
 sequence
 
@@ -62,7 +62,7 @@ sequence
 
 Test-Jump
 
-If-Then
+If-Then  X
 
 If-Then-Else
 
@@ -74,7 +74,7 @@ Test-Jump
 
 If-Then
 
-If-Then-Else
+If-Then-Else  X
 
 If-Call
 
@@ -86,13 +86,13 @@ single alternative decision
 
 dual alternative decision
 
-multiple alternative decision
+multiple alternative decision  X
 
 10.A(n)__________section of a Select Case statement is branched to if none of the case values match the expression listed after the Select statement.
 
 Else
 
-Default
+Default  X
 
 Case
 
@@ -102,7 +102,7 @@ Otherwise
 
 relational
 
-logical
+logical  X
 
 conditional
 
@@ -110,7 +110,7 @@ ternary
 
 12.A compound Boolean expression created with the__________operator is true only if both of its subexpressions are true.
 
-AND
+AND  X
 
 OR
 
@@ -122,7 +122,7 @@ BOTH
 
 AND
 
-OR
+OR  X
 
 NOT
 
@@ -134,13 +134,13 @@ AND
 
 OR
 
-NOT
+NOT  X
 
 EITHER
 
 15.A_________is a Boolean variable that signals when some condition exists in the program.
 
-flag
+flag  X
 
 signal
 
