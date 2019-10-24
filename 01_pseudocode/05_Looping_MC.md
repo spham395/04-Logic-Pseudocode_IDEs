@@ -3,7 +3,7 @@ A___________controlled loop uses a true/false condition to control the number of
 
 Boolean
 
-condition
+condition  X
 
 decision
 
@@ -17,7 +17,7 @@ condition
 
 decision
 
-count
+count  X
 
 Each repetition of a loop is known as a(n)________.
 
@@ -27,11 +27,11 @@ revolution
 
 orbit
 
-iteration
+iteration  X
 
 The While loop is a________type of loop.
 
-pretest
+pretest  X
 
 posttest
 
@@ -43,7 +43,7 @@ The Do-While loop is a________type of loop.
 
 pretest
 
-posttest
+posttest  X
 
 prequalified
 
@@ -51,7 +51,7 @@ post iterative
 
 The For loop is a________type of loop.
 
-pretest
+pretest  X
 
 posttest
 
@@ -65,7 +65,7 @@ indeterminate
 
 interminable
 
-infinite
+infinite  X
 
 timeless
 
@@ -73,7 +73,7 @@ A________loop always executes at least once.
 
 pretest
 
-posttest
+posttest  X
 
 condition-controlled
 
@@ -87,11 +87,11 @@ sum
 
 total
 
-accumulator
+accumulator  X
 
 A(n)________is a special value that signals when there are no more items from a list of items to be processed. This value cannot be mistaken as an item from the list.
 
-sentinel
+sentinel  X
 
 flag
 

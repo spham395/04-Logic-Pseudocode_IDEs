@@ -50,15 +50,52 @@ if (budget - totalExpense) == 0
 # Sum of Numbers
 
 Design a program with a loop that asks the user to enter a series of positive numbers. The user should enter a negative number to signal the end of the series. After all the positive numbers have been entered, the program should display their sum.
-
+```
+Declare Integer total = 0
+do
+    Display "Enter a positive number\n"
+    Input number
+    Set total += number
+    Display "Enter a negative number to display total"
+    Input number
+While number > 0
+Display "The sum of all positive numbers is ", total
+```
 # Tuition Increase
 
 At one college, the tuition for a full-time student is $6,000 per semester. It has been announced that the tuition will increase by 2 percent each year for the next five years. Design a program with a loop that displays the projected semester tuition amount for the next five years.
+```
+Declare Real currentYearTuition = 6000, total = 0
+Constant Real tuitionRate = 1.02
+For year = 1 To 5
+    For semester = 1 To 4
+        total += currentYearTuition
+    End For
+    Set currentYearTuition = currentYearTuition * tuitionRate
+End For
+Display "The total for the next 5 years is $", total
 
+```
 # Average Rainfall
 
 Design a program that uses nested loops to collect data and calculate the average rainfall over a period of years. The program should first ask for the number of years. The outer loop will iterate once for each year. The inner loop will iterate twelve times, once for each month. Each iteration of the inner loop will ask the user for the inches of rainfall for that month. After alliterations, the program should display the number of months, the total inches of rainfall, and the average rainfall per month for the entire period.
+```
+Declare Integer numMonths = 0, numYears = 0
+Declare Real inchesOfRain = 0, totalInchesOfRain = 0, avgRainPerMonth = 0
+Constant Integer MONTHS_IN_YEAR = 12
 
+Display "Enter number of years"
+Input numYears
+For 0 To numYears
+    For 0 To MONTHS_IN_YEAR
+        inchesOfRain = 0
+        Display "Enter amount, in inches, of rainfall for the month"
+        Input inchesOfRain
+        Set totalInchesOfRain += inchesOfRain
+    End For
+End For
+Display "
+```
 # Celsius to Fahrenheit Table
 
 Design a program that displays a table of the Celsius temperatures 0 through 20 and their Fahrenheit equivalents. The formula for converting a temperature from Celsius to Fahrenheit is
@@ -92,7 +129,9 @@ and
 ![image](https://user-images.githubusercontent.com/47218880/67429177-3c349a00-f5a5-11e9-94c6-82826c1b03cf.png)
 
 Design a program that asks the user to enter a nonnegative integer and then displays the factorial of that number.
-
+```
+Declare Integer number, totalProduct
+```
 # Multiplication Table
 
 Design a program that uses nested loops to display a multiplication table for the numbers 1 through 12. The program’s output should look like this:
