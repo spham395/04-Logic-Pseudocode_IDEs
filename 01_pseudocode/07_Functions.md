@@ -107,7 +107,7 @@ Enter your age.
 Enter your best friend's age.
 24 [Enter]Together you are 46 years old.
 ```
-## Program 6-7
+## Program 6-5
 ```
  1  // Global constant for the discount percentage.
  2  Constant Real DISCOUNT_PERCENTAGE = 0.20
@@ -154,7 +154,7 @@ Program Output (with Input Shown in Bold)
 Enter the item's regular price.
 100.00 [Enter]The sale price is $80
 ```
-## Program 6-9
+## Program 6-6
 ```
  1  // Variable declarations
  2  Declare Integer number
