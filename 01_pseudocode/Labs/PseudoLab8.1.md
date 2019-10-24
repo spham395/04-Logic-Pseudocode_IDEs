@@ -19,6 +19,7 @@ According to nutritional formulas, the number of calories cannot exceed "fat gra
 Make sure that the number of calories entered is not greater than "fat grams X 9"
 
 Once correct data has been entered, the program should calculate and display the percentage of calories that come from fat. Use the following formula:
+
 ![image](https://user-images.githubusercontent.com/47218880/67504468-0ba93a80-f64f-11e9-85d0-f080ac66a64a.png)
 
 Some nutritionists classify a food as “low fat” if less than 30 percent of its calories come from fat. If the results of this formula are less than 0.3, the program should display a message indicating the food is low in fat.
