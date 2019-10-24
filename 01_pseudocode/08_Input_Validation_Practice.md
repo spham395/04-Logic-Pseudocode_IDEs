@@ -1,15 +1,55 @@
 # Input Validation Exercise Workbench
 
 Design an algorithm that prompts the user to enter a positive nonzero number and validates the input.
-
+```
+Declare Integer number
+do
+   Display "Enter a positive nonzero number"
+   Input number
+until(number > 0)
+```
 Design an algorithm that prompts the user to enter a number in the range of 1 through 100 and validates the input.
-
+```
+Declare Integer number
+While True
+   Display "Enter a number in the range of 1 through 100"
+   Input number
+   if number > 100 OR number < 1
+      Display "What did I just say?"
+   else
+      break
+   end if
+End While
+```
 Design an algorithm that prompts the user to enter “yes” or “no” and validates the input. (Use a case-insensitive comparison.)
+```
+Declare String response
 
+While True
+   Display "Enter yes or no"
+   Input response
+   Set response = ToLower(response)
+   if response == "yes" OR response == "no"
+      break
+   else
+      Display "Incorrect response"
+End While
+```
 Design an algorithm that prompts the user to enter a number that is greater than 99 and validates the input.
-
+```
+Declare Integer number
+do
+   Display "Enter a number greater than 99"
+   Input number
+until number > 99
+```
 Design an algorithm that prompts the user to enter a secret word. The secret word should be at least 8 characters long. Validate the input.
-
+```
+Display "Enter a secret word at least 8 characters long."
+Input secretWord
+if secretWord.length < 8
+   Display "Enter a longer word"
+```
 # Debugging Exercises
 
 Why does the following pseudocode not perform as indicated in the comments?
