@@ -28,13 +28,24 @@ For minutes = 10 To 30 Step 5
 
 Design a program that asks the user to enter the amount that he or she has budgeted for a month. A loop should then prompt the user to enter each of his or her expenses for the month, and keep a running total. When the loop finishes, the program should display the amount that the user is over or under budget.
 ```
-Declare Real Budget
+Declare Real budget
 Declare String anotherExpense = 'n'
 Display "What is your budget for the month?"
-Input Budget
+Input budget
 Display "Enter expense(s)? (enter y)"
 While anotherExpense == 'y'
-    
+    Display "Enter expense amount: "
+    Input expense
+    Set totalExpense += expense
+    Display "Add another?"
+    Input anotherExpense
+End While
+if (budget - totalExpense) < 0
+    Display "You are over budget."
+else if (budget - totalExpense) > 0
+    Display "You are under budget."
+if (budget - totalExpense) == 0
+    Display "You have met budget."
 ```
 # Sum of Numbers
 
