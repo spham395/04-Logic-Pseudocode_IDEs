@@ -3,11 +3,33 @@
 ## Total Sales
 
 Design a program that asks the user to enter a store’s sales for each day of the week. The amounts should be stored in an array. Use a loop to calculate the total sales for the week and display the result.
-
+```
+Func getSalesForWeek()
+    Declare String dayOfWeek[] = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    Declare Real sales[7], total
+    For day = 0 To dayOfWeek.length() - 1
+        Display "Enter sales for" + dayOfWeek[day]
+        Input sales[day]
+    End For
+    For each num in sales
+        Set total += num
+    end For
+    Display total
+End Func
+```
 ## Lottery Number Generator
 
 Design a program that generates a 7-digit lottery number. The program should have an Integer array with 7 elements. Write a loop that steps through the array, randomly generating a number in the range of 0 through 9 for each element. Then write another loop that displays the contents of the array.
+```
+Declare Integer winningNum[7]
 
+For i = 0 To 6
+    Set winningNum[i] = random(0, 9)
+End For
+For each num in winningNum
+    Display num
+End For
+```
 ## Rainfall Statistics
 
 Design a program that lets the user enter the total rainfall for each of 12 months into an array. The program should calculate and display the total rainfall for the year, the average monthly rainfall, and the months with the highest and lowest amounts.
@@ -151,3 +173,47 @@ The sum of each row, each column, and each diagonal all add up to the same numbe
 ![image](https://user-images.githubusercontent.com/47218880/67577377-f9d69e80-f705-11e9-9907-1a522d98cc16.png)
 
 In a program, you can simulate a magic square using a two-dimensional array. Design a program that initializes a two-dimensional array with values entered by the user. The program should determine whether the array is a Lo Shu Magic Square.
+```
+main()
+    Declare Integer magicSquare[3][3], r = 0, c = 0
+    
+    Display "Enter 9 numbers"
+
+    do
+        do
+            Input magicSquare[r][c]
+            c += 1
+        until c == 3
+        r += 1
+    until r == 3
+    If isMagicSquare(magicSquare) Then
+        Display "You somehow created a Lo Shu Magic Square!"
+    Else
+        Display "You entered nothing special."
+
+Func Bool isMagicSquare(Integer square[][])
+    Declare Integer rowTotal, colTotal, diagTotal, revDiagTotal, count = 0
+    
+    For r = 0 To 2
+        count -= 1
+        //Checking each row/col for 15
+        For c = 0 To 2
+            rowTotal += square[r][c]
+            colTotal += square[c][r]
+        End For
+        //Checking diagonals for 15
+        diagTotal += square[r][r]
+        revDiagTotal += square[count][i]
+
+        If rowTotal != 15 OR colTotal != 15 Then
+            return False
+        End If
+    End For
+
+    If diagTotal != 15 OR revDiagTotal != 15 Then
+        return False
+    End If
+
+    return True
+End Func
+```

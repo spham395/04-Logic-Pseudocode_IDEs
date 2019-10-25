@@ -47,7 +47,7 @@ Set sales[7][9] = number
 ```
 ##  6. Write a pseudocode declaration for a String array initialized with the following strings: "Einstein", "Newton", "Copernicus", and "Kepler".
 ```
-Declare String greatMinds[] = ["Einstein", "Newton", "Copernicus", and "Kepler"]
+Declare String greatMinds[] = ["Einstein", "Newton", "Copernicus", "Kepler"]
 ```
 ## 7. Assume names is an Integer array with 20 elements. Design a For loop that displays each element of the array.
 ```
