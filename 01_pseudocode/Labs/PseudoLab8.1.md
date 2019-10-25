@@ -32,7 +32,42 @@ End Func
 ## Theater Seating Revenue with Input Validation
 
 A dramatic theater has three seating sections, and it charges the following prices for tickets in each section: section A seats cost $20 each, section B seats cost $15 each, and section C seats cost $10 each. The theater has 300 seats in section A, 500 seats in section B, and 200 seats in section C. Design a program that asks for the number of tickets sold in each section and then displays the amount of income generated from ticket sales. The program should validate the numbers that are entered for each section.
+```
+Constant Integer SEATS_SECTION_A = 300, SEATS_SECTION_B = 500, SEATS_SECTION_C = 200
+Declare Integer total
 
+total = calcSectionCost("A") + calcSectionCost("B") + calcSectionCost("C")
+
+Display "Total sale of tickets is " total
+
+Func Integer calcSectionCost(String section)
+	if section == "A" then
+		do
+			Display "Enter amount of tickets sold in Section " + section
+			Input seatsSold
+		while seatsSold < SEATS_SECTION_A
+		return SEATS_SECTION_A * seats
+	else if section == "B" then
+		do
+			Display "Enter amount of tickets sold in Section " + section
+			Input seatsSold
+		while seatsSold < SEATS_SECTION_B
+		return SEATS_SECTION_B * seats
+	else if section == "C" then
+		do
+			Display "Enter amount of tickets sold in Section " + section
+			Input seatsSold
+		while seatsSold < SEATS_SECTION_C
+		return SEATS_SECTION_C * seats
+	return 0
+End Func
+Func validateSeats()
+	do
+		Display "Enter amount of tickets sold in Section " + section
+		Input seatsSold
+	while seatsSold < SEATS_SECTION_A
+End Func
+```
 ## Fat Gram Calculator
 
 Design a program that asks for the number of fat grams and calories in a food item. Validate the input as follows:
@@ -59,7 +94,7 @@ The driver’s speed should be at least the value entered for the speed limit ­
 Once correct data has been entered, the program should calculate and display the number of miles per hour over the speed limit that the driver was doing.
 ```
 Start
-	Display f"You were doing {0} mph over the speed limit",  calcSpeedLimitViolation
+	Display f"You were doing {0} mph over the speed limit",  calcSpeedLimitViolation()
 Stop
 
 Func Integer getSpeedLimit()
